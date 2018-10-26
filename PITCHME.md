@@ -190,17 +190,10 @@ class Box[T](val value:T) {
 
 ---
 
-また、スーパークラスにサブクラスを代入できないことで、空のBox型が作りにくいです。
-
-<img src="https://github.com/taketora26/sample_gitpitch/blob/master/img/kaisou.png?raw=true" width="400">
-
-* Scalaのクラス階層
-
----
-
 ## 共変[+T]とは？
 * 型をゆるめる定義です。 
  * サブクラスを代入することができるようになり、スーパークラスの変数にスーパーを継承した色んなサブクラスを代入できます。
+* Option、Try、Either、Traversable(Seq、Mapなど)
 
 ---
 
