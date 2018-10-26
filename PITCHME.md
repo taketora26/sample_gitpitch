@@ -126,6 +126,7 @@ class Box[T](var value:T) {
 }
 
 ```
+
 ---
 
 * スーパークラスの変数にサブクラスが代入できない
@@ -141,8 +142,7 @@ scala> val fruitsBox:Box[Fruits] = appleBox
 Note: Apple <: Fruits, but class Box is invariant in type T.
 You may wish to define T as +T instead. (SLS 4.5)
        val fruitsBox:Box[Fruits] = appleBox
-                                   ^
-```
+                                   ^```
 
 ---
 
