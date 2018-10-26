@@ -12,14 +12,14 @@
 自己紹介は割愛しますが、
 一点だけ共有
 ---
-## 先週の日曜日に
-## 千葉のアクアラインマラソンに走ってきました。
+先週の日曜日に
+千葉の**アクアラインマラソン**に走ってきました。
 
 ---
 
-タイムは3時間22分
+## タイムは3時間22分
 
-<img src="https://github.com/taketora26/sample_gitpitch/blob/master/img/IMG_2142.JPG?raw=true" width="300">
+<img src="https://github.com/taketora26/sample_gitpitch/blob/master/img/IMG_2142.JPG?raw=true" width="400">
 
 ---
 
@@ -27,7 +27,10 @@
 
 言い訳ですが、20キロ過ぎて右ふくらはぎがつった状態でした
 ---
-11月に富士山マラソンがありますので、
+11月に**富士山マラソン**がありますので、
 
 その結果を乞うご期待
+
+(堀越さんも走りますよ)
 ---
+
