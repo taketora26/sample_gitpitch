@@ -1,4 +1,5 @@
-# 変位指定についてわかりやすく解説させてください
+## 変位指定について
+## わかりやすく解説させてください
 
 ### 2018/11/10 Scala関西Summit 
 ### 池田 健虎
@@ -14,7 +15,7 @@
 ---
 
 
-![MyPicture](https://github.com/taketora26/sample_gitpitch/blob/master/img/IMG_2142.JPG)
+![MyPicture](https://github.com/taketora26/sample_gitpitch/blob/master/img/IMG_2142.JPG?raw=true)
 
 タイムは3時間22分
 
