@@ -218,13 +218,13 @@ fruitsBox: Box[Fruits] = Box@5ad7d599
 ```
 ---
 
-共変の一番のメリットは
+Listなので共変の一番のメリットは
+全てのクラスのサブクラスであるNothingを持った型であるNilが使えること。
+
 
 ```Scala
 val list:List[Int] = Nil
 ```
-
-Nilが使えること。
 
 ```Scala
 case object Nil extends List[Nothing]
