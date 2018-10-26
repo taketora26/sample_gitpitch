@@ -96,18 +96,19 @@ Javaをやっていない私は
 
 ---
 
+
 ```Java
 java.util.List<String> strs = new java.util.ArrayList<String>();
 
+//これはOK
 strs.add("hoge");
 
 ```
-これはOK
 
-```
+```Java
+// String型以外の要素を追加しようとすると、コンパイルエラーになる
 strs.add(new java.util.Date());
 ```
-String型以外の要素を追加しようとすると、コンパイルエラーになる
 
 ---
 
@@ -122,6 +123,29 @@ String型以外の要素を追加しようとすると、コンパイルエラ�
 * 反変[-T]
 
 ---
+## 非変[T]とは何か？
+
+* 型が厳格な定義です、その型しか代入できません。
+* 基本的に型パラメータは変異指定をつけない場合は非変です。
+
+
+---
+
+## 共変[+T]とは何か？
+* 型をゆるめる機能です。 
+ * サブクラスを代入することができるようになり、スーパークラスの変数にスーパーを継承した色んなサブクラスを入れられます。
+
+---
+
+---
+
+---
+
+---
+
+---
+
+
 
 # APPENDIX
 ---
@@ -134,6 +158,7 @@ String型以外の要素を追加しようとすると、コンパイルエラ�
 * [JavaとScalaとC#のジェネリクス機能比較表](http://kmizu.hatenablog.com/entry/20101109/1289264947)
 * [ScalaでListが共変でなければいけない理由](http://kmizu.hatenablog.com/entry/20120810/1344601464)
 * [ScalaとKotlin（と昔のJava）のジェネリクスが壊れている理由](http://kmizu.hatenablog.com/entry/2016/09/04/145023)
+
 ---
 ## REFERENCE(2)
 * [自分自身の型をパラメータに取るgenericな型を記述する](http://kmizu.hatenablog.com/entry/20080820/1219231895)
