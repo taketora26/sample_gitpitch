@@ -135,7 +135,7 @@ appleBox: Box[Apple] = Box@4364e670
 
 scala> val fruitsBox:Box[Fruits] = appleBox
 
-<console>:14: error: type mismatch;
+\<console>:14: error: type mismatch;
  found   : Box[Apple]
  required: Box[Fruits]
 Note: Apple <: Fruits, but class Box is invariant in type T.
