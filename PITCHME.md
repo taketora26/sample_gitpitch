@@ -192,7 +192,7 @@ class Box[T](val value:T) {
 
 また、スーパークラスにサブクラスを代入できないことで、空のBox型が作りにくいです。
 
-<img src="https://github.com/taketora26/sample_gitpitch/blob/master/img/kaisou.png" width="400">
+<img src="https://github.com/taketora26/sample_gitpitch/blob/master/img/kaisou.png?raw=true" width="400">
 
 * Scalaのクラス階層
 
