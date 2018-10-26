@@ -77,7 +77,7 @@ Javaをやっていない私は
 
 Genericsとは、
 ## 型をパラメータとして取る
-## クラスやインタフェース(trait)などを
+## クラスやインタフェースなどを
 ## 定義するための機能です
 
 ---
@@ -138,15 +138,13 @@ appleBox: Box[Apple] = Box@4364e670
 scala> val fruitsBox:Box[Fruits] = appleBox
 ```
 
-```
-
+```scala
 <console>:14: error: type mismatch;
  found   : Box[Apple]
  required: Box[Fruits]
 Note: Apple <: Fruits, but class Box is invariant in type T.
 You may wish to define T as +T instead. (SLS 4.5)
-       val fruitsBox:Box[Fruits] = appleBox
-                                   ^
+       val fruitsBox:Box[Fruits] = appleBox                                   ^
 ```
 
 ---
