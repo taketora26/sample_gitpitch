@@ -188,9 +188,11 @@ class Box[T](val value:T) {
 ```
 一旦appleBoxインスタンスが作られたあとは、インスタンスに対する書き込みが行われないので、変数にも代入して良くない？
 
+---
+
 また、スーパークラスにサブクラスを代入できないことで、空のBox型が作りにくいです。
 
-<img src="https://gyazo.com/da34112c02c36b0a4c4be876b252210c" width="400">
+<img src="https://github.com/taketora26/sample_gitpitch/blob/master/img/kaisou.png" width="400">
 
 * Scalaのクラス階層
 
