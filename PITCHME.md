@@ -91,30 +91,11 @@ Javaをやっていない私は
 
 ---
 
-ちなみにJavaでいう総称型とは、
-クラスを定義するときに、型を渡すことです
-
----
-
-
-```Java
-java.util.List<String> strs = new java.util.ArrayList<String>();
-
-//これはOK
-strs.add("hoge");
-
-```
-
-```Java
-// String型以外の要素を追加しようとすると、コンパイルエラーになる
-strs.add(new java.util.Date());
-```
-
----
-
 ## 変位指定とは
 
 型パラメータに + や - の変位アノテーションを付けることで変位指定すること
+
+---
 
 #### 型パラメータの変位には3つあります
 
