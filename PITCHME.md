@@ -1,27 +1,29 @@
 ## 変位指定について
+
 ## わかりやすく
+
 ## 解説させてください
 
-### 2018/11/10 Scala関西Summit 
-### 池田 健虎
+2018/11/10 Scala関西Summit 
+池田 健虎
 
 ---
 
-## 自己紹介は割愛しますが、
-## 一点だけ共有
+自己紹介は割愛しますが、
+一点だけ共有
 ---
 ## 先週の日曜日に
 ## 千葉のアクアラインマラソンに走ってきました。
 
 ---
 
-<img src="https://github.com/taketora26/sample_gitpitch/blob/master/img/IMG_2142.JPG?raw=true" width="300">
-
 タイムは3時間22分
+
+<img src="https://github.com/taketora26/sample_gitpitch/blob/master/img/IMG_2142.JPG?raw=true" width="300">
 
 ---
 
-# ベストタイムではないです
+## ベストタイムではないです
 
 言い訳ですが、20キロ過ぎて右ふくらはぎがつった状態でした
 ---
