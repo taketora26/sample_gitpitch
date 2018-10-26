@@ -1,10 +1,30 @@
-## sample_gitpitch
+# 変位指定についてわかりやすく解説させてください
 
-this is sample
+### 2018/11/10 Scala関西Summit 
+### 池田 健虎
 
 ---
 
-## this is test
+## 自己紹介は割愛しますが、
+## 一点だけ共有
+---
+## 先週の日曜日に
+## 千葉のアクアラインマラソンに走ってきました。
 
-this is test
+---
 
+
+![MyPicture](https://github.com/taketora26/sample_gitpitch/blob/master/img/IMG_2142.JPG)
+
+タイムは3時間22分
+
+---
+
+# ベストタイムではないです
+
+言い訳ですが、20キロ過ぎて右ふくらはぎがつった状態でした
+---
+11月に富士山マラソンがありますので、
+
+その結果を乞うご期待
+---
