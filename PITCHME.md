@@ -230,7 +230,7 @@ Nilが使えること。
 case object Nil extends List[Nothing]
 ```
 
-<img src="https://github.com/taketora26/sample_gitpitch/blob/master/img/kaisou.png" width="400">
+<img src="https://github.com/taketora26/sample_gitpitch/blob/master/img/kaisou.png?raw=true" width="400">
 * Scalaのクラス階層
 
 ---
