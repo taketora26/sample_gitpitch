@@ -218,6 +218,23 @@ fruitsBox: Box[Fruits] = Box@5ad7d599
 ```
 ---
 
+共変の一番のメリットは
+
+```Scala
+val list:List[Int] = Nil
+```
+
+Nilが使えること。
+
+```Scala
+case object Nil extends List[Nothing]
+```
+
+<img src="https://github.com/taketora26/sample_gitpitch/blob/master/img/kaisou.png" width="400">
+* Scalaのクラス階層
+
+---
+
 ここで一点注意
 ---
 共変はそのままの状態ですと引数に持ってくることができません。
