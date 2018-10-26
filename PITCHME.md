@@ -64,7 +64,9 @@ Javaをやっている人は
 
 Javaをやっていない私は
 
-なにそれと思いました :innocent:
+なにそれと思いました:innocent:
+
+:innocent:
 
 ---
 
