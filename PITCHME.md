@@ -95,8 +95,8 @@ Genericsとは、
 
 ## 変位指定とは
 
-型パラメータに + や - の変位アノテーションを付けることで変位指定すること
-
+* 型パラメータに + や - の変位アノテーションを付けることで変位指定すること
+* 変位指定は受け取るインスタンスに対する制約
 ---
 
 #### 型パラメータの変位には3つあります
@@ -108,19 +108,20 @@ Genericsとは、
 ---
 ## 非変[T]とは？
 
-* 型が厳格な定義ですその型しか代入できません。
+* 型が厳格な定義です。その型のインスタンスしか変数に代入できません。
 * 基本的に型パラメータを使うときに変異指定をつけない場合は非変です。
+* Array、Setが非変です。
 
 ---
 
 ```Scala
 class Fruits
 class Apple extends Fruits
+class Banana extends Fruits
 ```
 
 ```Scala
 class Box[T](var value:T) {
-
   def put(t:T):Unit = { value = t }
   def get:T = value
 }
@@ -141,6 +142,54 @@ You may wish to define T as +T instead. (SLS 4.5)
        val fruitsBox:Box[Fruits] = appleBox
                                    ^
  ```
+---
+
+### ここで一点注意
+
+* 変位指定は受け取るインスタンスに対する制約
+* メソッドの型パラメータに対しては指定できない。
+
+```Scala
+scala>  val fruitsBox:Box[Fruits] = new Box[Fruits](new Fruits)
+fruitsBox: Box[Fruits] = Box@15bf5fd0
+scala> fruitsBox.put(new Fruits)
+
+scala> fruitsBox.put(new Apple)
+
+scala> fruitsBox.put(new Banana)
+
+scala> fruitsBox.get
+res4: Fruits = Banana@26f8c8d9
+```
+
+スーパークラスにインスタンのメソッドの引数に、サブクラスのインスタンスを入れることができる。
+
+```Scala
+scala>  val fruitsBox2:Box[Fruits] = fruitsBox 
+fruitsBox2: Box[Fruits] = Box@15bf5fd0
+
+scala> fruitsBox2.get
+res5: Fruits = Banana@26f8c8d9
+```
+
+---
+
+
+しかし非変の特徴として、immutableな場合にこの制限だと強過ぎる。
+
+```Scala
+class Box[T](val value:T) {
+  def get:T = value
+}
+```
+一旦appleBoxインスタンスが作られたあとは、インスタンスに対する書き込みが行われないので
+
+
+また、スーパークラスにサブクラスを代入できないことで、空のBox型が作りにくいです。
+
+<img src="https://gyazo.com/da34112c02c36b0a4c4be876b252210c" width="400">
+
+* Scalaのクラス階層
 
 ---
 
@@ -149,6 +198,7 @@ You may wish to define T as +T instead. (SLS 4.5)
  * サブクラスを代入することができるようになり、スーパークラスの変数にスーパーを継承した色んなサブクラスを代入できます。
 
 ---
+
 ```Scala
 class Fruits
 class Apple extends Fruits
@@ -172,6 +222,7 @@ fruitsBox: Box[Fruits] = Box@5ad7d599
 
 ここで一点注意
 ---
+共変はそのままの状態ですと引数に持ってくることができません。
 
 ```Scala
 class Box[+T](var value:T) {
@@ -190,6 +241,11 @@ class Box[+T](var value:T) {
                  ^
 ```
 ---
+これはなぜか？
+
+仮にコンパイルでエラーが出ないとしたときに、
+
+
 
 ---
 
