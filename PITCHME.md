@@ -127,8 +127,6 @@ class Box[T](var value:T) {
 
 ```
 
----
-
 * スーパークラスの変数にサブクラスが代入できない
 
 ```Scala
@@ -136,9 +134,7 @@ scala> val appleBox = new Box[Apple](new Apple)
 appleBox: Box[Apple] = Box@4364e670
 
 scala> val fruitsBox:Box[Fruits] = appleBox
-```
 
-```Scala
 <console>:14: error: type mismatch;
  found   : Box[Apple]
  required: Box[Fruits]
@@ -146,9 +142,6 @@ Note: Apple <: Fruits, but class Box is invariant in type T.
 You may wish to define T as +T instead. (SLS 4.5)
        val fruitsBox:Box[Fruits] = appleBox
 ```
-
----
-
 ---
 
 ## 共変[+T]とは何か？
