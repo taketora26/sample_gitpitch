@@ -75,13 +75,13 @@ Javaをやっていない私は
 
 もう少し詳細にいうと
 
-## Genericsとは、
-型をパラメータとして取るクラスやインタフェース(trait)などを定義するための機能です
+Genericsとは、
+## 型をパラメータとして取るクラスやインタフェース(trait)などを定義するための機能です
 
 ---
 
 ## パラメータ
-「処理結果に影響を与える外部から投入される変動要素」のこと
+「外から渡す変動要素」のこと
 
 ---
 
@@ -109,11 +109,44 @@ Javaをやっていない私は
 * 型が厳格な定義です、その型しか代入できません。
 * 基本的に型パラメータは変異指定をつけない場合は非変です。
 
+---
+
+```Scala
+class Fruits
+class Apple extends Fruits
+```
+
+```Scala
+class Box[T](var value:T) {
+
+  def put(t:T):Unit = { value = t }
+  def get:T = value
+}
+
+```
+
+* スーパークラスの変数に、サブクラスが代入できない
+
+```Scala
+scala> val appleBox = new Box[Apple](new Apple)
+appleBox: Box[Apple] = Box@4364e670
+
+scala> val fruitsBox:Box[Fruits] = appleBox
+<console>:14: error: type mismatch;
+ found   : Box[Apple]
+ required: Box[Fruits]
+Note: Apple <: Fruits, but class Box is invariant in type T.
+You may wish to define T as +T instead. (SLS 4.5)
+       val fruitsBox:Box[Fruits] = appleBox
+                                   ^
+```
+
+---
 
 ---
 
 ## 共変[+T]とは何か？
-* 型をゆるめる機能です。 
+* 型をゆるめる定義です。 
  * サブクラスを代入することができるようになり、スーパークラスの変数にスーパーを継承した色んなサブクラスを入れられます。
 
 ---
