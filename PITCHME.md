@@ -64,7 +64,7 @@ Javaをやっている人は
 
 Javaをやっていない私は
 
-ふぁ？と思いました😇
+全然わかりませんでした😇
 
 ---
 
@@ -147,7 +147,7 @@ You may wish to define T as +T instead. (SLS 4.5)
 ### ここで一点注意
 
 * 変位指定は受け取るインスタンスに対する制約
-* メソッドの型パラメータに対しては指定できない。
+* メソッドの型パラメータに対しては制約することはできない。
 
 ```Scala
 scala>  val fruitsBox:Box[Fruits] = new Box[Fruits](new Fruits)
@@ -161,6 +161,7 @@ scala> fruitsBox.put(new Banana)
 scala> fruitsBox.get
 res4: Fruits = Banana@26f8c8d9
 ```
+---
 
 スーパークラスにインスタンのメソッドの引数に、サブクラスのインスタンスを入れることができる。
 
