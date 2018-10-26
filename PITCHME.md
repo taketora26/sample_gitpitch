@@ -130,7 +130,7 @@ class Box[T](var value:T) {
 
 * スーパークラスの変数にサブクラスが代入できない
 
-```Scala
+```
 scala> val appleBox = new Box[Apple](new Apple)
 appleBox: Box[Apple] = Box@4364e670
 
