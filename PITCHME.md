@@ -21,19 +21,17 @@
 
 ---
 
-## タイムは3時間22分
+タイムは3時間22分
 
 <img src="https://github.com/taketora26/sample_gitpitch/blob/master/img/IMG_2142.JPG?raw=true" width="400">
 
 ---
 
-## ベストタイムではないです
+### ベストタイムではないです
 
 * 20キロ過ぎて右ふくらはぎがつりました
-* スタートの位置も1万2000人中、1万人目あたりです
-* ランニングのパンツが短く、股ずれで痛かったです
-
-### 負けず嫌いなので言い訳が激しいです
+* スタートの位置が1万2000人中、9000人目あたりです
+* 股ずれで痛かったです
 
 
 ---
@@ -62,19 +60,16 @@ Javaをやっている人は
 
 とか即座に理解されますが、
 
-Javaをやっていない人は全然腑に落ちないです
+Javaをやっていない私は全然腑に落ちませんでした
 ---
 
 ## Genericsとは、
-## 型パラメータを
-## 定義するための機能です
+ 型パラメータを定義するための機能です
 
 ---
 
 ## Genericsとは、
-## 型をパラメータとして取る
-## クラスやインタフェース(trait)などを
-## 定義するための機能です
+型をパラメータとして取るクラスやインタフェース(trait)などを定義するための機能です
 
 ---
 
@@ -100,4 +95,12 @@ Javaをやっていない人は全然腑に落ちないです
 
 ## REFERENCE
 
-* 
+* [[scala][備忘録] Scalaのジェネリックスを学ぶ](http://d.hatena.ne.jp/j5ik2o/20101106/1289028031)
+* [第6回 Scala言語を探検する（4）Scalaの型システム](https://tech.nikkeibp.co.jp/it/article/COLUMN/20090106/322252/?ST=develop&P=3)
+* [Javaのジェネリクスは「まがい物」ではない](http://kmizu.hatenablog.com/entry/2017/09/24/074904)
+* [JavaとScalaとC#のジェネリクス機能比較表](http://kmizu.hatenablog.com/entry/20101109/1289264947)
+* [ScalaでListが共変でなければいけない理由](http://kmizu.hatenablog.com/entry/20120810/1344601464)
+* [ScalaとKotlin（と昔のJava）のジェネリクスが壊れている理由](http://kmizu.hatenablog.com/entry/2016/09/04/145023)
+* [自分自身の型をパラメータに取るgenericな型を記述する](http://kmizu.hatenablog.com/entry/20080820/1219231895)
+* [Scala逆引きレシピ](www.amazon.co.jp/dp/4798125415)
+* [Scalaスケーラブルプログラミング第3版](www.amazon.co.jp/dp/4844381490)
