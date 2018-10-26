@@ -106,10 +106,10 @@ Genericsとは、
 * 反変[-T]
 
 ---
-## 非変[T]とは何か？
+## 非変[T]とは？
 
 * 型が厳格な定義ですその型しか代入できません。
-* 基本的に型パラメータは変異指定をつけない場合は非変です。
+* 基本的に型パラメータを使うときに変異指定をつけない場合は非変です。
 
 ---
 
@@ -131,6 +131,7 @@ class Box[T](var value:T) {
 scala> val appleBox = new Box[Apple](new Apple)
 appleBox: Box[Apple] = Box@4364e670
 
+//スーパークラスの変数に サブクラスを代入できない
 scala> val fruitsBox:Box[Fruits] = appleBox
 <console>:14: error: type mismatch;
  found   : Box[Apple]
@@ -141,20 +142,53 @@ You may wish to define T as +T instead. (SLS 4.5)
                                    ^
  ```
 
-
-
 ---
 
-## 共変[+T]とは何か？
+## 共変[+T]とは？
 * 型をゆるめる定義です。 
- * サブクラスを代入することができるようになり、スーパークラスの変数にスーパーを継承した色んなサブクラスを入れられます。
+ * サブクラスを代入することができるようになり、スーパークラスの変数にスーパーを継承した色んなサブクラスを代入できます。
 
 ---
+```Scala
+class Fruits
+class Apple extends Fruits
+```
 
+```Scala
+class Box[+T](value:T) {
+  def get:T = value
+}
+```
+
+```Scala
+scala> val appleBox = new Box[Apple](new Apple)
+appleBox: Box[Apple] = Box@5ad7d599
+
+//スーパークラスの変数に サブクラスを代入できる
+scala> val fruitsBox:Box[Fruits] = appleBox
+fruitsBox: Box[Fruits] = Box@5ad7d599
+```
 ---
 
+ここで一点注意
 ---
 
+```Scala
+class Box[+T](var value:T) {
+
+  def put(t:T):Unit = { value = t }
+  def get:T = value
+}
+```
+
+```Scala
+<console>:11: error: covariant type T occurs in contravariant position in type T of value value_=
+       class Box[+T](var value:T) {
+                         ^
+<console>:13: error: covariant type T occurs in contravariant position in type T of value t
+         def put(t:T):Unit = { value = t }
+                 ^
+```
 ---
 
 ---
