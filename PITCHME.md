@@ -17,6 +17,7 @@
 <img src="https://github.com/taketora26/sample_gitpitch/blob/master/img/chiba.jpeg?raw=true" width="200">
 
 先週の日曜日に
+
 千葉の**アクアラインマラソン**に走ってきました。
 
 ---
@@ -56,11 +57,13 @@
 ---
 Javaをやっている人は
 
-「あ〜Javaでいう総称型ですね」
+### 「あ〜Javaでいう総称型ですね」
 
 とか即座に理解されますが、
 
-Javaをやっていない私は全然腑に落ちませんでした
+Javaをやっていない私は
+
+急にScalaが怖くなりました
 ---
 
 ## Genericsとは、
@@ -101,6 +104,7 @@ Javaをやっていない私は全然腑に落ちませんでした
 * [JavaとScalaとC#のジェネリクス機能比較表](http://kmizu.hatenablog.com/entry/20101109/1289264947)
 * [ScalaでListが共変でなければいけない理由](http://kmizu.hatenablog.com/entry/20120810/1344601464)
 * [ScalaとKotlin（と昔のJava）のジェネリクスが壊れている理由](http://kmizu.hatenablog.com/entry/2016/09/04/145023)
+---
 * [自分自身の型をパラメータに取るgenericな型を記述する](http://kmizu.hatenablog.com/entry/20080820/1219231895)
 * [Scala逆引きレシピ](www.amazon.co.jp/dp/4798125415)
 * [Scalaスケーラブルプログラミング第3版](www.amazon.co.jp/dp/4844381490)
