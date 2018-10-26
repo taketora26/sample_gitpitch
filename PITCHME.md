@@ -91,8 +91,23 @@ Javaをやっていない私は
 
 ---
 
-ちなみにJavaでいう総称型とは
+ちなみにJavaでいう総称型とは、
+クラスを定義するときに、型を渡すことです
 
+---
+
+```Java
+java.util.List<String> strs = new java.util.ArrayList<String>();
+
+strs.add("hoge");
+
+```
+これはOK
+
+```
+strs.add(new java.util.Date());
+```
+String型以外の要素を追加しようとすると、コンパイルエラーになる
 
 ---
 
