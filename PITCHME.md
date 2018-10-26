@@ -55,15 +55,17 @@
 一言で説明できる方いますか？
 
 ---
+
 Javaをやっている人は
 
-### 「あ〜Javaでいう総称型ですね」
+###「あ〜Javaでいう総称型ですね」
 
 とか即座に理解されますが、
 
 Javaをやっていない私は
 
-急にScalaが怖くなりました
+なにそれと思いました
+
 ---
 
 ## Genericsとは、
@@ -96,7 +98,7 @@ Javaをやっていない私は
 # APPENDIX
 ---
 
-## REFERENCE
+## REFERENCE(1)
 
 * [[scala][備忘録] Scalaのジェネリックスを学ぶ](http://d.hatena.ne.jp/j5ik2o/20101106/1289028031)
 * [第6回 Scala言語を探検する（4）Scalaの型システム](https://tech.nikkeibp.co.jp/it/article/COLUMN/20090106/322252/?ST=develop&P=3)
@@ -105,6 +107,7 @@ Javaをやっていない私は
 * [ScalaでListが共変でなければいけない理由](http://kmizu.hatenablog.com/entry/20120810/1344601464)
 * [ScalaとKotlin（と昔のJava）のジェネリクスが壊れている理由](http://kmizu.hatenablog.com/entry/2016/09/04/145023)
 ---
+## REFERENCE(2)
 * [自分自身の型をパラメータに取るgenericな型を記述する](http://kmizu.hatenablog.com/entry/20080820/1219231895)
 * [Scala逆引きレシピ](www.amazon.co.jp/dp/4798125415)
 * [Scalaスケーラブルプログラミング第3版](www.amazon.co.jp/dp/4844381490)
