@@ -139,8 +139,10 @@ scala> val fruitsBox:Box[Fruits] = appleBox
 <console>:14: error: type mismatch;
  found   : Box[Apple]
  required: Box[Fruits]
-Note Apple <: Fruits, but class Box is invariant in type T.
+\:Note Apple <: Fruits, but class Box is invariant in type T.
 You may wish to define T as +T instead. (SLS 4.5)
+       val fruitsBox:Box[Fruits] = appleBox
+                                   ^
  ```
 
 
