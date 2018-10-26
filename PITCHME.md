@@ -15,6 +15,8 @@
 先週の日曜日に
 千葉の**アクアラインマラソン**に走ってきました。
 
+<img src="https://github.com/taketora26/sample_gitpitch/blob/master/img/chiba.jpeg?raw=true" width="200">
+
 ---
 
 ## タイムは3時間22分
