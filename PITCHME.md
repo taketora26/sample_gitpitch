@@ -121,14 +121,13 @@ class Box[Fruits](var value: Fruits) {
 ---
 ここでジェネリクスが導入されました。
 
----
-
 ```Scala
 class Box[T](var value:T) {
   def put(t:T):Unit = { value = t }
   def get:T = value
 }
 ```
+---
 
 ジェネリクスのおかけで
 
