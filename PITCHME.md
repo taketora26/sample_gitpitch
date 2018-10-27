@@ -14,7 +14,7 @@ ProLabo もくもく会
 
 <img src="https://pbs.twimg.com/profile_images/813291577682509824/eut9iJB2_400x400.jpg" width="200">
 
-* 池田 健虎
+* ikeda taketo
 * セプテーニ・オリジナル
 * 新卒教育や採用など
 * 副業でScalaを教えたりしています
@@ -24,7 +24,7 @@ ProLabo もくもく会
 ひとつ共有させてください
 ---
 
-<img src="https://github.com/taketora26/sample_gitpitch/blob/master/img/chiba.jpeg?raw=true" width="200">
+<img src="http://chiba-aqualine-marathon.com/2018/img/photogallery/008.jpg" width="300">
 
 先週の日曜日に
 
@@ -32,12 +32,11 @@ ProLabo もくもく会
 
 ---
 
+## 完走しました
+
 <img src="https://github.com/taketora26/sample_gitpitch/blob/master/img/IMG_2142.JPG?raw=true" width="400">
 
-* 20キロ過ぎて右ふくらはぎがつった
-* 股ずれで痛かった
-
-## 不完全燃焼でしたが、完走したらOK
+2回目のフルマラソンでした。
 ---
 
 本題です
@@ -47,9 +46,7 @@ ProLabo もくもく会
 ## わかりやすく
 ## 解説させてください
 ---
-まず、ScalaのGenericsを
-
-一言で説明できる方いますか？
+まず、Genericsって知ってますか？
 
 ---
 
