@@ -22,6 +22,7 @@ ProLabo もくもく会
 ---
 
 ひとつ共有させてください
+
 ---?image=http://chiba-aqualine-marathon.com/2018/img/photogallery/008.jpg
 
 
@@ -71,6 +72,7 @@ Javaをやっていない私は
 
 ## メリット
 
+ジェネリクスってなんのためにあるの？
 
 ---
 
