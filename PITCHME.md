@@ -23,8 +23,7 @@ ProLabo もくもく会
 
 ひとつ共有させてください
 
----?image=http://chiba-aqualine-marathon.com/2018/img/photogallery/008.jpg
-
+---?image=img/008.jpg
 
 @color[white](先週の日曜日に)
 
