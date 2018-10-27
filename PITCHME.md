@@ -61,7 +61,7 @@ Javaをやっていない私は
 
 ---
 
-@size[medium](Genericsとは、)
+@size[larger](Genericsとは、)
 
 汎用的なクラスやメソッドを特定の型に対応づける機能のことで、Java SE5.0 から導入されました。
 
