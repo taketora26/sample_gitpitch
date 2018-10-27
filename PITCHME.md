@@ -24,9 +24,10 @@ ProLabo もくもく会
 ひとつ共有させてください
 ---?image=http://chiba-aqualine-marathon.com/2018/img/photogallery/008.jpg
 
-先週の日曜日に
 
-千葉の**アクアラインマラソン**に走ってきました。
+@color[white](先週の日曜日に)
+
+@color[white](千葉の**アクアラインマラソン**に走ってきました。)
 
 ---
 
