@@ -72,7 +72,7 @@ Genericsとは
 
 ---
 
-<img src="https://pbs.twimg.com/profile_images/img/nouka.png" width="200">
+<img src="https://pbs.twimg.com/profile_images/img/nouka.png?raw=true" width="200">
 
 あなたは果物農家で、収穫した果物を果物屋さんやりんごジュース屋さんに配送しています。
 
