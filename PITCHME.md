@@ -209,6 +209,11 @@ You may wish to define T as +T instead. (SLS 4.5)
                                    ^
  ```
  
+ 
+---
+
+## 今日はここまで。。。。！
+
 ---
 
 ## 変位指定とは
