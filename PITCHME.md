@@ -53,6 +53,7 @@ Javaをやっている人は
 とか即座に理解されますが、
 
 Javaをやっていない私は
+
 全然わかりませんでした😇
 
 ---
@@ -80,7 +81,7 @@ Genericsとは
 
 **ダンボール箱**を使っていました。
 
-* ジュース屋さんにはりんごが入ったダウンボールしか受け取ってくれません
+* ジュース屋さんには、りんごが入ったダウンボールのみ
 * 果物屋さんには果物が入ったダンボールであればなんでも受け取ってくれました。
 ---
 
@@ -95,8 +96,35 @@ Genericsとは
 ### でもやっていることはダンボールに果物を入れて配送することです。
 ---
 
-ここでジェネリクスが導入されました。
+しかし、それぞれの果物に対応したダンボールを作るのは、ちょっと手間。
+
+```Scala
+
+//りんご用のダンボール
+class Box[Apple](var value: Apple) {
+  def put(apple:Apple):Unit = { value = apple }
+  def get: Apple = value
+}
+
+//フルーツ用のりんご
+class Box[Fruits](var value: Fruits) {
+  def put(fruits: Fruits):Unit = { value = fruits }
+  def get: Fruits = value
+}
+
+```
+
 ---
+ここでジェネリクスが導入されました。
+
+---
+
+```Scala
+class Box[T](var value:T) {
+  def put(t:T):Unit = { value = t }
+  def get:T = value
+}
+```
 
 ジェネリクスのおかけで
 
