@@ -83,6 +83,8 @@ Genericsとは
 
 * ジュース屋さんには、りんごが入ったダウンボールのみ
 * 果物屋さんには果物が入ったダンボールであればなんでも受け取ってくれました。
+
+<img src="https://raw.githubusercontent.com/taketora26/sample_gitpitch/itpro/img/takuhai_yasai_box.png?raw=true" width="200">
 ---
 
 ジェネリクスが生まれる前までは
