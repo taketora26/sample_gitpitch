@@ -96,7 +96,7 @@ Genericsとは
 ### でもやっていることはダンボールに果物を入れて配送することです。
 ---
 
-しかし、それぞれの果物に対応したダンボールを作るのは、ちょっと手間。
+それぞれの果物に対応したダンボールを作るのは、ちょっと手間。
 
 ```Scala
 
@@ -130,6 +130,16 @@ class Box[T](var value:T) {
 
 りんご用かバナナ用か、フルーツ用かは決めずに
 ダンボール箱を用意できる体制にできました。
+
+```Scala
+scala> val appleBox = new Box[Apple](new Apple)
+appleBox: Box[Apple] = Box@37e22cfb
+
+scala> val fruitsBox = new Box[Fruits](new Fruits)
+fruitsBox: Box[Fruits] = Box@6ab5f533
+
+
+```
 ---
 
 つまり
