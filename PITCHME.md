@@ -77,14 +77,16 @@ Genericsとは
 
 ---
 
+<img src="https://raw.githubusercontent.com/taketora26/sample_gitpitch/itpro/img/takuhai_yasai_box.png?raw=true" width="150">
+
 収穫した果物を配送するために
 
 **ダンボール箱**を使っていました。
 
-* ジュース屋さんには、りんごが入ったダウンボールのみ
+* ジュース屋さんにはりんごが入ったダウンボールのみ
 * 果物屋さんには果物が入ったダンボールであればなんでも受け取ってくれました。
 
-<img src="https://raw.githubusercontent.com/taketora26/sample_gitpitch/itpro/img/takuhai_yasai_box.png?raw=true" width="200">
+
 ---
 
 ジェネリクスが生まれる前までは
