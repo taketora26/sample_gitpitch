@@ -14,8 +14,9 @@ ProLabo もくもく会
 
 <img src="https://pbs.twimg.com/profile_images/813291577682509824/eut9iJB2_400x400.jpg" width="200">
 
-* ikeda taketo
+* [@taket0ra1](https://twitter.com/taket0ra1)
 * セプテーニ・オリジナル
+* 3年ほどScalaでバックエンド開発やインフラ周りを対応
 * 新卒教育や採用など
 * 副業でScalaを教えたりしています
 
