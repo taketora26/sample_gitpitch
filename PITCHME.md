@@ -128,12 +128,27 @@ Scalaではこのことを
 ---
 
 
+```
+
+```
+
 りんごのダウンボールにはりんごしか入れられません。
 → 非変
 
-フルーツのダンボールにはりんごもみかんもバナナも色々混ざっています。
 
-たまに、フルーツように要していたダンボールに、りんごダンボールをそのまま入れようとすることが
+```Scala
+class Fruits
+class Apple extends Fruits
+class Banana extends Fruits
+```
+
+```Scala
+class Box[T](var value:T) {
+  def put(t:T):Unit = { value = t }
+  def get:T = value
+}
+
+```
 
 ---
 
