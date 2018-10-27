@@ -10,8 +10,6 @@ ProLabo もくもく会
 
 ---
 
-自己紹介
-
 <img src="https://pbs.twimg.com/profile_images/813291577682509824/eut9iJB2_400x400.jpg" width="200">
 
 * [@taket0ra1](https://twitter.com/taket0ra1)
