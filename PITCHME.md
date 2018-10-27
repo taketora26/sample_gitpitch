@@ -14,7 +14,7 @@ ProLabo もくもく会
 
 * [@taket0ra1](https://twitter.com/taket0ra1)
 * セプテーニ・オリジナル
-* 3年ほどScalaでバックエンド開発やインフラ周りを対応
+* Scalaでバックエンド開発やインフラ周りを対応
 * 副業でScalaを教えたりしています
 
 ---
