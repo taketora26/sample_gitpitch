@@ -64,7 +64,6 @@ Scalaを勉強し始めた時に、
 * List型の定義
 
 ```Scala
-
 sealed abstract class List[+A] extends AbstractSeq[A]
 ・・・(省略)
 
@@ -104,7 +103,10 @@ class Glass[T](var content:T) {
 }
 ```
 
-#### クラス(インターフェース)の定義時には何の型が入るか決まっていないが
+#### クラス(インターフェース)の定義時に
+
+### 何の型が入るか決まっていないが
+
 #### インスタンス化する際に型を決定する機能のこと
 
 ---
@@ -126,7 +128,7 @@ waterGlass: Glass[Water] = Glass@2251ccd8
 
 ```
 
-<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/cup.png?raw=true" heigth="120">
+<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/cup.png?raw=true" height="120">
 
 
 ---
