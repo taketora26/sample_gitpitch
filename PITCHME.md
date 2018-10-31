@@ -93,7 +93,7 @@ Scalaの変位指定がしっくりきていない方に
 ---
 Scalaの型パラメータ
 
-<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/amount_water_glass1.png?raw=true" height="200">
+<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/amount_water_glass1.png?raw=true" height="150">
 
 ```Scala
 class Glass[T](var content:T) {
@@ -102,11 +102,11 @@ class Glass[T](var content:T) {
 }
 ```
 
-##### クラス(インターフェース)の定義時に
+#### クラス(インターフェース)の定義時に
 
-##### 何の型が入るか決まっていないが
+#### 何の型が入るか決まっていないが
 
-##### インスタンス化する際に型を決定する機能のこと
+#### インスタンス化する際に型を決定する機能のこと
 
 ---
 
