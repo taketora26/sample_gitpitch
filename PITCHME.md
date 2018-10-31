@@ -93,7 +93,7 @@ Scalaの変位指定がしっくりきていない方に
 
 ---
 
-<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/amount_water_glass1.png?raw=true" width="150">
+<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/amount_water_glass1.png?raw=true" width="120">
 
 Scalaの型パラメータ
 
