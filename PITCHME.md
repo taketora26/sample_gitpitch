@@ -84,12 +84,12 @@ Scalaの変位指定がしっくりきていない方に
 * なんのためにあるのか？
 * 変位指定の表記について
 
-常軌を直感的に理解しよう
+などを理解してもらいたく、解説したいと思います。
 
 
 ---
 
-まず型パラメータを簡単に紹介
+まず型パラメータを紹介
 
 ---
 
@@ -102,6 +102,8 @@ class Glass[T](var content:T) {
   def get:T = content
 }
 ```
+
+<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/amount_water_glass1.png?raw=true" width="200">
 
 #### クラス(インターフェース)の定義時には何の型が入るか決まっていないが
 #### インスタンス化する際に型を決定する機能のこと
@@ -138,7 +140,7 @@ juiceGlass: Glass[Juice] = Glass@31b6938e
 
 * 非変[T]
 
-<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/amount_water_glass1.png?raw=true" width="400">
+<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/amount_water_glass1.png?raw=true" width="200">
 
 ```Scala
 class Glass[T](var content:T) {
