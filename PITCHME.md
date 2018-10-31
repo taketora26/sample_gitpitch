@@ -92,7 +92,7 @@ Scalaの変位指定がしっくりきていない方に
 
 ---
 
-<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/amount_water_glass1.png?raw=true" width="120">
+<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/amount_water_glass1.png?raw=true" height="120">
 
 Scalaの型パラメータ
 
@@ -128,7 +128,7 @@ waterGlass: Glass[Water] = Glass@2251ccd8
 
 ```
 
-<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/cup.png?raw=true" height="120">
+<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/cup.png?raw=true" height="200">
 
 
 ---
