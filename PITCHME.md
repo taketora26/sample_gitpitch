@@ -43,7 +43,7 @@ Scala勉強会第231回 in 西新宿
 ## 解説させてください
 ---
 
-まず、変位指定は普段使うことがありますか？
+まず、変位指定を普段定義することはありますか？
 
 ---
 
@@ -59,8 +59,7 @@ Scalaを勉強し始めた時に、
 
 ---
 
-ライブラリのソースコードや、Scalaの言語仕様などで `共変[+T]`や`下限境界[B >: A]`などの変位指定を見かけることが多いかなと思います
-
+ライブラリのソースコードや、Scalaの言語仕様などで `共変[+T]`や`下限境界[B >: A]`などの変位指定を見かけます。
 
 * List型の定義
 
@@ -81,10 +80,11 @@ sealed abstract class List[+A] extends AbstractSeq[A]
 Scalaの変位指定がしっくりきていない方に
 
 * 共変、反変、非変とは
+* 境界指定(上限境界、下限境界)とは
 * なんのためにあるのか？
-* 変位指定の表記について
+* 変位指定、境界指定の定義について
 
-などを理解してもらいたく、解説したいと思います。
+などを理解できるように解説したいと思います。
 
 
 ---
@@ -93,6 +93,7 @@ Scalaの変位指定がしっくりきていない方に
 
 ---
 
+<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/amount_water_glass1.png?raw=true" width="100">
 
 Scalaの型パラメータ
 
@@ -102,8 +103,6 @@ class Glass[T](var content:T) {
   def get:T = content
 }
 ```
-
-<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/amount_water_glass1.png?raw=true" width="200">
 
 #### クラス(インターフェース)の定義時には何の型が入るか決まっていないが
 #### インスタンス化する際に型を決定する機能のこと
