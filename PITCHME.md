@@ -126,7 +126,7 @@ waterGlass: Glass[Water] = Glass@2251ccd8
 
 ```
 
-<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/cup.png?raw=true" heigth="150">
+<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/cup.png?raw=true" heigth="120">
 
 
 ---
