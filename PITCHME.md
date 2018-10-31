@@ -93,7 +93,7 @@ Scalaの変位指定がしっくりきていない方に
 
 ---
 
-<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/amount_water_glass1.png?raw=true" width="100">
+<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/amount_water_glass1.png?raw=true" width="150">
 
 Scalaの型パラメータ
 
@@ -110,18 +110,24 @@ class Glass[T](var content:T) {
 ---
 
 ```Scala
-class Fruits
-class Apple extends Fruits
+class Drink
+class Juice extends Drink
+class OrangeJuice extends Juice
+
+class Water extends Drink
 ```
 
 ```Scala
-scala> val appleGlass = new Glass[AppleJuice](new AppleJuice)
-appleGlass: Glass[AppleJuice] = Glass@4381efab
+scala> val orangeJuiceGlass = new Glass[OrangeJuice](new OrangeJuice)
+orangeJuiceGlass: Glass[OrangeJuice] = Glass@4fb799d3
 
-scala> val juiceGlass =  new Glass[Juice](new Juice)
-juiceGlass: Glass[Juice] = Glass@31b6938e
+scala> val waterGlass =  new Glass[Water](new Water)
+waterGlass: Glass[Water] = Glass@2251ccd8
 
 ```
+
+<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/cup.png?raw=true" width="150">
+
 
 ---
 
