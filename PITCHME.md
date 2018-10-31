@@ -91,10 +91,9 @@ Scalaの変位指定がしっくりきていない方に
 まず型パラメータを紹介
 
 ---
+Scalaの型パラメータ
 
 <img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/amount_water_glass1.png?raw=true" height="120">
-
-Scalaの型パラメータ
 
 ```Scala
 class Glass[T](var content:T) {
@@ -118,6 +117,7 @@ class OrangeJuice extends Juice
 
 class Water extends Drink
 ```
+<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/cup.png?raw=true" height="200">
 
 ```Scala
 scala> val orangeJuiceGlass = new Glass[OrangeJuice](new OrangeJuice)
@@ -127,9 +127,6 @@ scala> val waterGlass =  new Glass[Water](new Water)
 waterGlass: Glass[Water] = Glass@2251ccd8
 
 ```
-
-<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/cup.png?raw=true" height="200">
-
 
 ---
 
