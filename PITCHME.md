@@ -93,7 +93,7 @@ Scalaの変位指定がしっくりきていない方に
 ---
 Scalaの型パラメータ
 
-<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/amount_water_glass1.png?raw=true" height="120">
+<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/amount_water_glass1.png?raw=true" height="200">
 
 ```Scala
 class Glass[T](var content:T) {
