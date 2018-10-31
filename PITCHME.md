@@ -63,6 +63,7 @@ Scalaを勉強し始めた時に、
 
 
 * List型の定義
+
 ```Scala
 
 sealed abstract class List[+A] extends AbstractSeq[A]
@@ -81,12 +82,14 @@ Scalaの変位指定がしっくりきていない方に
 
 * 共変、反変、非変とは
 * なんのためにあるのか？
-* 変位指定の表記についての直感的に理解しよう
+* 変位指定の表記について
+
+常軌を直感的に理解しよう
 
 
 ---
 
-まず型パラメータからサクッと紹介
+まず型パラメータを簡単に紹介
 
 ---
 
@@ -94,9 +97,9 @@ Scalaの変位指定がしっくりきていない方に
 Scalaの型パラメータ
 
 ```Scala
-class Box[T](var value:T) {
-  def put(t:T):Unit = { value = t }
-  def get:T = value
+class Glass[T](var content:T) {
+  def put(t:T):Unit = { content = t }
+  def get:T = content
 }
 ```
 
@@ -108,15 +111,14 @@ class Box[T](var value:T) {
 ```Scala
 class Fruits
 class Apple extends Fruits
-class Banana extends Fruits
 ```
 
 ```Scala
-scala> val appleBox = new Box[Apple](new Apple)
-appleBox: Box[Apple] = Box@37e22cfb
+scala> val appleGlass = new Glass[AppleJuice](new AppleJuice)
+appleGlass: Glass[AppleJuice] = Glass@4381efab
 
-scala> val fruitsBox = new Box[Fruits](new Fruits)
-fruitsBox: Box[Fruits] = Box@6ab5f533
+scala> val juiceGlass =  new Glass[Juice](new Juice)
+juiceGlass: Glass[Juice] = Glass@31b6938e
 
 ```
 
