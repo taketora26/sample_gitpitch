@@ -55,16 +55,18 @@ Scalaを勉強し始めた時に、
 
 本で登場してきてますが
 
-実際に変位指定を使ってプロダクト開発を行う機会は少なく
+実際に変位指定を定義してプロダクト開発を行う機会は少なく
 
 ---
 
-ライブラリーのソースコードや、Scalaの言語仕様などで 共変[+T]や下限境界[B >: A]などが登場するケースが多いなと感じます。
+ライブラリのソースコードや、Scalaの言語仕様などで `共変[+T]`や`下限境界[B >: A]`などの変位指定を見かけることが多いかなと思います
 
+
+* List型の定義
 ```Scala
 
 sealed abstract class List[+A] extends AbstractSeq[A]
-・・・
+・・・(省略)
 
   def ::[B >: A] (x: B): List[B] =
     new scala.collection.immutable.::(x, this)
@@ -81,7 +83,6 @@ Scalaの変位指定がしっくりきていない方に
 * なんのためにあるのか？
 * 変位指定の表記についての直感的に理解しよう
 
-そういった疑問を少しでも解消できるように作ってみました
 
 ---
 
@@ -133,8 +134,29 @@ fruitsBox: Box[Fruits] = Box@6ab5f533
 
 ---
 
+* 非変[T]
+
+<img src="https://github.com/taketora26/sample_gitpitch/blob/master/img/amount_water_glass1.png?raw=true" width="400">
+
+```Scala
+class Glass[T](var content:T) {
+  def put(t:T):Unit = { content = t }
+  def get:T = content
+}
+```
 
 ---
+
+```scala
+
+
+
+```
+
+
+
+---
+
 
 
 

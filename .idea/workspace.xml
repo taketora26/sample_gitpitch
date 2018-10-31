@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b5d8bd5-c63b-4379-9c61-9c208d28e339" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PITCHME.md" beforeDir="false" afterPath="$PROJECT_DIR$/PITCHME.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +23,8 @@
         <entry file="file://$PROJECT_DIR$/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="338">
-                <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+              <first_editor relative-caret-position="47">
+                <caret line="126" column="3" lean-forward="true" selection-start-line="126" selection-start-column="3" selection-end-line="130" selection-end-column="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -70,9 +71,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1641" />
-    <option name="y" value="103" />
-    <option name="width" value="1641" />
+    <option name="x" value="-1888" />
+    <option name="y" value="95" />
+    <option name="width" value="1222" />
     <option name="height" value="949" />
   </component>
   <component name="ProjectView">
@@ -189,15 +190,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540873499795</updated>
-      <workItem from="1540873501726" duration="11094000" />
+      <workItem from="1540873501726" duration="14819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11094000" />
+    <option name="totallyTimeSpent" value="14819000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1641" y="103" width="1641" height="949" extended-state="0" />
+    <frame x="-1888" y="95" width="1222" height="949" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -210,10 +211,10 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3286385" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3286385" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22951844" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.22951844" />
       <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -250,8 +251,8 @@
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="338">
-            <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+          <first_editor relative-caret-position="47">
+            <caret line="126" column="3" lean-forward="true" selection-start-line="126" selection-start-column="3" selection-end-line="130" selection-end-column="7" />
           </first_editor>
           <second_editor />
         </state>
