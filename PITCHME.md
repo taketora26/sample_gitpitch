@@ -138,7 +138,7 @@ juiceGlass: Glass[Juice] = Glass@31b6938e
 
 * 非変[T]
 
-<img src="https://github.com/taketora26/sample_gitpitch/blob/master/img/amount_water_glass1.png?raw=true" width="400">
+<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/amount_water_glass1.png?raw=true" width="400">
 
 ```Scala
 class Glass[T](var content:T) {
