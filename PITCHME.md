@@ -130,9 +130,7 @@ waterGlass: Glass[Water] = Glass@2251ccd8
 
 ---
 
-続いて、変位指定について
-
----
+このまま、変位指定について
 
 変位指定は以下の3つがあります
 
@@ -153,12 +151,26 @@ class Glass[T](var content:T) {
 }
 ```
 
+* 型を厳格にする定義です。その型のインスタンスしか変数に適合できません。
+* 型パラメータを使うときに変異を指定していない場合は非変です。
+
 ---
 
+
+
+
 ```scala
+scala> val orangeJuiceGlass:Glass[OrangeJuice] = new Glass[OrangeJuice](new OrangeJuice)
+orangeJuiceGlass: Glass[OrangeJuice] = Glass@6e28b1e5
 
-
-
+scala> val juiceGlass:Glass[Juice] = new Glass[OrangeJuice](new OrangeJuice)
+<console>:17: error: type mismatch;
+ found   : Glass[OrangeJuice]
+ required: Glass[Juice]
+Note: OrangeJuice <: Juice, but class Glass is invariant in type T.
+You may wish to define T as +T instead. (SLS 4.5)
+       val juiceGlass:Glass[Juice] = new Glass[OrangeJuice](new OrangeJuice)
+                                     ^
 ```
 
 
