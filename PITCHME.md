@@ -75,7 +75,7 @@ Javaをやったことない人向けて
 
 * 共変、反変、非変について
 * なんのためにあるのか？
-* この表記についての理解
+* 変位指定の表記についての理解
 
 そういった疑問を少しでも解消できるように作ってみました
 
@@ -86,7 +86,7 @@ Javaをやったことない人向けて
 ---
 
 
-Scalaの型パラメーターは
+Scalaの型パラメータ
 
 ```Scala
 class Box[T](var value:T) {
@@ -95,8 +95,27 @@ class Box[T](var value:T) {
 }
 ```
 
+#### クラス(インターフェース)の定義時には何の型が入るか決まっていないが
+#### インスタンス化する際に型を決定する機能のこと
+
 ---
 
+```Scala
+class Fruits
+class Apple extends Fruits
+class Banana extends Fruits
+```
+
+```Scala
+scala> val appleBox = new Box[Apple](new Apple)
+appleBox: Box[Apple] = Box@37e22cfb
+
+scala> val fruitsBox = new Box[Fruits](new Fruits)
+fruitsBox: Box[Fruits] = Box@6ab5f533
+
+```
+
+---
 
 
 
@@ -204,7 +223,6 @@ appleBox: Box[Apple] = Box@37e22cfb
 
 scala> val fruitsBox = new Box[Fruits](new Fruits)
 fruitsBox: Box[Fruits] = Box@6ab5f533
-
 
 ```
 ---
