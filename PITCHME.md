@@ -90,10 +90,11 @@ Scalaの変位指定がしっくりきていない方に
 
 まず型パラメータを紹介
 
----
-Scalaの型パラメータ
+---?image=img/amount_water_glass1.png&position=left&size=55% 100%
 
-<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/amount_water_glass1.png?raw=true" height="150">
+@title[Get Ready]
+
+Scalaの型パラメータ
 
 ```Scala
 class Glass[T](var content:T) {
@@ -151,7 +152,7 @@ class Glass[T](var content:T) {
 }
 ```
 
-* 型を厳格にする定義です。その型のインスタンスしか変数に適合できません。
+* 型を厳格にする定義です。同じ型のインスタンスしか変数に適合できません。
 * 型パラメータを使うときに変異を指定していない場合は非変です。
 
 ---
