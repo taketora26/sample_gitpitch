@@ -90,11 +90,12 @@ Scalaの変位指定がしっくりきていない方に
 
 まず型パラメータを紹介
 
----?image=img/amount_water_glass1.png&position=top&size=20%
-
-<br>
+---?image=img/amount_water_glass1.png&position=top&size=15%
 
 Scalaの型パラメータ
+
+<br>
+<br>
 
 ```Scala
 class Glass[T](var content:T) {
