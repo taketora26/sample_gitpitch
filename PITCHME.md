@@ -107,11 +107,8 @@ class Glass[T](var content:T) {
 
 #### インスタンス化する際に型を決定する機能のこと
 
----?image=img/cup.png&position=top&size=25%
+---?image=img/cup.png&position=top&size=50%
 
-<br>
-<br>
-<br>
 <br>
 
 ```Scala
