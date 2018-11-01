@@ -107,15 +107,18 @@ class Glass[T](var content:T) {
 
 #### インスタンス化する際に型を決定する機能のこと
 
----
+---?image=img/cup.png&position=top&size=25%
+
+<br>
+<br>
+<br>
+<br>
 
 ```Scala
 class Drink
 class Juice extends Drink
 class Water extends Drink
 ```
-<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/cup.png?raw=true" height="200">
-
 ```Scala
 scala> val juiceGlass = new Glass[Juice](new Juice)
 juiceGlass: Glass[Juice] = Glass@4fb799d3
