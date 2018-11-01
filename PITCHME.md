@@ -90,7 +90,7 @@ Scalaの変位指定がしっくりきていない方に
 
 まず型パラメータを紹介
 
----?image=img/amount_water_glass1.png&position=left&size=55% 50%
+---?image=img/amount_water_glass1.png&position=left&size=50%
 
 Scalaの型パラメータ
 
