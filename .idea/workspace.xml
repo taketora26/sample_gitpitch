@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b5d8bd5-c63b-4379-9c61-9c208d28e339" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PITCHME.md" beforeDir="false" afterPath="$PROJECT_DIR$/PITCHME.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,8 +23,8 @@
         <entry file="file://$PROJECT_DIR$/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="86">
-                <caret line="95" selection-start-line="95" selection-end-line="95" />
+              <first_editor relative-caret-position="77">
+                <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
               </first_editor>
               <second_editor />
             </state>
@@ -41,6 +42,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Scalaの型パラメータ</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -189,15 +195,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540873499795</updated>
-      <workItem from="1540873501726" duration="23819000" />
+      <workItem from="1540873501726" duration="24696000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23819000" />
+    <option name="totallyTimeSpent" value="24696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1888" y="297" width="1816" height="747" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -249,8 +256,8 @@
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="86">
-            <caret line="95" selection-start-line="95" selection-end-line="95" />
+          <first_editor relative-caret-position="77">
+            <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
           </first_editor>
           <second_editor />
         </state>
