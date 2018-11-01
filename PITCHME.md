@@ -112,19 +112,18 @@ class Glass[T](var content:T) {
 ```Scala
 class Drink
 class Juice extends Drink
-class OrangeJuice extends Juice
-
 class Water extends Drink
 ```
 <img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/cup.png?raw=true" height="200">
 
 ```Scala
-scala> val orangeJuiceGlass = new Glass[OrangeJuice](new OrangeJuice)
-orangeJuiceGlass: Glass[OrangeJuice] = Glass@4fb799d3
+scala> val juiceGlass = new Glass[Juice](new Juice)
+juiceGlass: Glass[Juice] = Glass@4fb799d3
+```
 
+```Scala
 scala> val waterGlass =  new Glass[Water](new Water)
 waterGlass: Glass[Water] = Glass@2251ccd8
-
 ```
 
 ---
