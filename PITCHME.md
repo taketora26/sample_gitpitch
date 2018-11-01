@@ -92,7 +92,9 @@ Scalaの変位指定がしっくりきていない方に
 
 ---?image=img/amount_water_glass1.png&position=top&size=15%
 
-Scalaの型パラメータ : top-left
+@snap[north-west]
+Scalaの型パラメータ
+@snapend
 
 <br>
 <br>
