@@ -404,6 +404,13 @@ You may wish to define T as +T instead. (SLS 4.5)
  ```
 ---
 
+
+```scala
+scala> List("🍺", "☕", "🍸")
+res3: List[String] = List(🍺, ☕️, 🍸)
+```
+
+
 ### ここで一点注意
 
 * 変位指定は受け取るインスタンスに対する制約
