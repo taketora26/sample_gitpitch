@@ -241,6 +241,8 @@ final class Array[T] extends java.io.Serializable with java.lang.Cloneable
 
 ```
 
+---
+
 Arrayは可変なコレクションです。
 
 ```scala
@@ -297,23 +299,6 @@ Arrayが可変(mutable)なコレクションであるため、
 (型安全が壊れる)
 
 そしてこの型安全が壊れていることにコンパイラが気づけない。
-
----
-
-
-```scala
-scala> val orangeJuiceGlass:Glass[OrangeJuice] = new Glass[OrangeJuice](new OrangeJuice)
-orangeJuiceGlass: Glass[OrangeJuice] = Glass@6e28b1e5
-
-scala> val juiceGlass:Glass[Juice] = new Glass[OrangeJuice](new OrangeJuice)
-<console>:17: error: type mismatch;
- found   : Glass[OrangeJuice]
- required: Glass[Juice]
-Note: OrangeJuice <: Juice, but class Glass is invariant in type T.
-You may wish to define T as +T instead. (SLS 4.5)
-       val juiceGlass:Glass[Juice] = new Glass[OrangeJuice](new OrangeJuice)
-                                     ^
-```
 
 
 
