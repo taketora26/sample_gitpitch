@@ -103,7 +103,7 @@ sealed abstract class List[+A] extends AbstractSeq[A]
 
 ---
 
-まず型パラメータを紹介
+型パラメータの紹介
 
 ---?image=img/amount_water_glass1.png&position=top&size=20%
 
@@ -153,9 +153,6 @@ juiceGlass: Glass[Juice] = Glass@4fb799d3
 Scalaは型の親子関係により
 
 スーパークラスにサブクラスのインスタンスを適合できます。
-
-#### これをサブタイプ(`Subtype Polymorphis`)
-といいます
 
 ---?image=img/w2d.png&position=top&size=60%
 
