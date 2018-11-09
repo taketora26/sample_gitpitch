@@ -159,7 +159,7 @@ val drink:Drink = new Water
 ```
 水はドリンクに適合します。
 
-#### Drink型とみなすことができます。
+#### `Drink`型とみなすことができます。
 
 ---?image=img/j2d.png&position=top&size=55%
 
