@@ -49,7 +49,9 @@ Scala関西Summit 2018
 ## 解説させてください
 ---
 
-まず、変位指定を普段定義することはありますか？
+みなさん、
+
+変位指定を普段定義することはありますか？
 
 ---
 
@@ -150,10 +152,10 @@ juiceGlass: Glass[Juice] = Glass@4fb799d3
 
 Scalaは型の親子関係により
 
-1つのスーパークラスにサブクラスのインスタンスを適合できます。
+スーパークラスにサブクラスのインスタンスを適合できます。
 
 #### これをサブタイプ(`Subtype Polymorphis`)
-と言います
+といいます
 
 ---?image=img/w2d.png&position=top&size=60%
 
@@ -167,7 +169,7 @@ val drink:Drink = new Water
 ```
 水はドリンクに適合します。
 
-#### `Drink`型とみなすことができます。
+#### (意訳すると)`Drink`型とみなすことができます。
 
 ---?image=img/j2d.png&position=top&size=55%
 
@@ -178,7 +180,7 @@ val drink:Drink = new Water
 val drink:Drink = new Juice
 ```
 ジュースもドリンクに適合します。
-#### `Drink`型とみなすことができます。
+#### (意訳すると)`Drink`型とみなすことができます。
 
 
 ---?image=img/gass_all.png&position=top&size=75%
@@ -186,8 +188,8 @@ val drink:Drink = new Juice
 <br>
 <br>
 
-#### 一方で型パラメータ`Glass[T]`では、
-#### このままの状態では、サブタイプが使えません
+#### 一方で型パラメータ`Glass[T]`は、
+#### デフォルトの状態では、サブタイプが使えません
 
 ---?image=img/w2d_ng.png&position=top&size=60%
 
@@ -201,7 +203,7 @@ scala> val glassDrink: Glass[Drink] = new Glass[Water](new Water)
  <console>:17: error: type mismatch;
 
 ```
-
+WaterがDrinkのサブタイプであっても
 Glass[Water]型をGlass[Drink]型に適応することができません。
 
 ---?image=img/w2w_ok.png&position=top&size=60%
@@ -221,16 +223,13 @@ glassWater: Glass[Water] = Glass@6874517b
 
 #### これを非変`[T]`といいます。
 
-
 サブタイプ関係を
 
 型パラメータで使うことができません。
 
-Glass[Water]型をGlass[Drink]型に適応できません。
-
 ---
 
-このようにサブタイプ関係を制約したり、
+このように型パラメータで、サブタイプ関係を制約したり、
 そのまま使えたり、サブタイプ関係を逆転させたりすることを
 
 **変異指定**と呼びます。
@@ -246,7 +245,7 @@ Glass[Water]型をGlass[Drink]型に適応できません。
 ---
 
 型パラメータでもサブタイプ関係をそのまま使える変異が共変[+T]になり、
-多くのコレクションが共変で作られています。
+多くのimmutableなコレクションが共変で作られています。
 
 共変の話は後ほど
 
@@ -314,9 +313,16 @@ val water:Water = arrayWater(0)
 
 ---
 
-共変です
+共変の場合は型パラメータでもサブタイプが
+
+List
 
 ---
+
+
+反対変
+
+
 
 # APPENDIX
 ---
