@@ -241,6 +241,22 @@ final class Array[T] extends java.io.Serializable with java.lang.Cloneable
 
 ```
 
+Arrayは可変なコレクションです。
+
+```scala
+scala> val arr:Array[Int] = Array(1,2,3)
+arr: Array[Int] = Array(1, 2, 3)
+
+scala> arr(0) = 4
+
+scala> arr
+res14: Array[Int] = Array(4, 2, 3)
+```
+
+---
+
+#### なぜ`Array`は非変なのか？
+
 ```scala
 scala> val water:Water = new Water
 
@@ -250,15 +266,7 @@ scala> val arrayDrink:Array[Drink] = arrayWater
 <console>:16: error: type mismatch;
 
 ```
-
 ---
-
-#### なぜ`Array`は非変なのか？
-
-Arrayは可変なコレクションです。
-
-
-
 
 ```scala
 val water = new Water
@@ -280,18 +288,17 @@ val water:Water = arrayWater(0)
 
 ```
 
----
-
 Arrayが可変(mutable)なコレクションであるため、
 
-非変でない場合に、要素が変更されて
+サブタイプがそのまま使えると、要素が変更されて
 
-要素を取り出す際に型が変わっていることが発生してしまう
+要素を取り出す際に型が変わっていることが発生してしまう。
 
+(型安全が壊れる)
+
+そしてこの型安全が壊れていることにコンパイラが気づけない。
 
 ---
-
-
 
 
 ```scala
