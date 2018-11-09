@@ -163,6 +163,7 @@ Scalaは型の親子関係により
 <br>
 <br>
 <br>
+<br>
 
 ```scala
 val drink:Drink = new Water
@@ -191,10 +192,15 @@ val drink:Drink = new Juice
 
 ---?image=img/w2d_ng.png&position=top&size=60%
 
+<br>
+<br>
+<br>
+<br>
 
 ```scala
 scala> val glassDrink: Glass[Drink] = new Glass[Water](new Water)
  <console>:17: error: type mismatch;
+
 ```
 
 Glass[Water]型をGlass[Drink]型に適応することができません。
