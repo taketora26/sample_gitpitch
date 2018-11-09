@@ -122,16 +122,22 @@ class Glass[T](var content:T) {
 
 #### インスタンス化する際に型を決定する機能のこと
 
+---?image=img/Drink1.png&position=top&size=60%
+
+<br>
+<br>
+
+```scala
+class Drink
+class Juice extends Drink
+class Water extends Drink
+```
+
 ---?image=img/cup.png&position=top&size=50%
 
 <br>
 <br>
 
-```Scala
-class Drink
-class Juice extends Drink
-class Water extends Drink
-```
 ```Scala
 scala> val juiceGlass = new Glass[Juice](new Juice)
 juiceGlass: Glass[Juice] = Glass@4fb799d3
@@ -141,21 +147,6 @@ juiceGlass: Glass[Juice] = Glass@4fb799d3
 scala> val waterGlass =  new Glass[Water](new Water)
 waterGlass: Glass[Water] = Glass@2251ccd8
 ```
-
----?image=img/Drink1.png&position=top&size=60%
-
-<br>
-<br>
-
-
-```scala
-class Drink
-class Juice extends Drink
-class Water extends Drink
-
-```
-
-
 ---
 
 * 非変[T]
