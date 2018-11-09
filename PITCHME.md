@@ -134,7 +134,7 @@ class Juice extends Drink
 class Water extends Drink
 ```
 
----?image=img/cup.png&position=top&size=60%
+---?image=img/cup.png&position=top&size=70%
 
 <br>
 <br>
