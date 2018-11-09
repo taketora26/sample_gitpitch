@@ -186,15 +186,16 @@ val drink:Drink = new Juice
 <br>
 <br>
 
-#### 一方で型パラメータ`Glass[T]`の型は、
-#### このままの状態ですとサブタイプが使えません
+#### 一方で型パラメータ`Glass[T]`では、
+#### このままの状態では、サブタイプが使えません
 
 ---?image=img/w2d_ng.png&position=top&size=60%
 
 
 ```scala
+
 scala> val glassDrink: Glass[Drink] = new Glass[Water](new Water)
-<console>:17: error: type mismatch;
+ <console>:17: error: type mismatch;
  found   : Glass[Water]
  required: Glass[Drink]
 Note: Water <: Drink, but class Glass is invariant in type T.
