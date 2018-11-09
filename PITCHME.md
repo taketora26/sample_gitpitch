@@ -25,12 +25,8 @@ Scala関西Summit 2018
 ---?image=img/008.jpg
 
 @color[white](先月)
+
 @color[white](千葉の**アクアラインマラソン**に走ってきました。)
-
----?image=img/map1.png&size=100% %&color=White
-
----?image=img/map2.jpg&size=100% %&color=White
-
 
 ---
 
@@ -39,6 +35,10 @@ Scala関西Summit 2018
 <img src="https://github.com/taketora26/sample_gitpitch/blob/master/img/IMG_2142.JPG?raw=true" width="400">
 
 2回目のフルマラソンでした。
+
+---?image=img/map1.png&size=100% %&color=White
+
+---?image=img/map2.jpg&size=100% %&color=White
 ---
 
 本題です
