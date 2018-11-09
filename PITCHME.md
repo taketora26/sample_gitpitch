@@ -123,7 +123,7 @@ class Glass[T](var content:T) {
 
 #### インスタンス化する際に型を決定する機能のこと
 
----?image=img/Drink1.png&position=top&size=60%
+---?image=img/Drink1.png&position=top&size=70%
 
 <br>
 <br>
