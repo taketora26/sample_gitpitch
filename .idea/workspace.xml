@@ -17,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="369">
-                <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+              <first_editor relative-caret-position="361">
+                <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
               </first_editor>
               <second_editor />
             </state>
@@ -92,8 +92,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="23" />
+    <option name="x" value="20" />
+    <option name="y" value="239" />
     <option name="width" value="1573" />
     <option name="height" value="858" />
   </component>
@@ -219,7 +219,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37390000" />
+    <option name="totallyTimeSpent" value="37912000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="23" width="1573" height="858" extended-state="0" />
@@ -383,8 +383,8 @@
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="369">
-            <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+          <first_editor relative-caret-position="361">
+            <caret line="152" lean-forward="true" selection-start-line="152" selection-end-line="152" />
           </first_editor>
           <second_editor />
         </state>

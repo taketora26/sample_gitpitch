@@ -88,8 +88,7 @@ sealed abstract class List[+A] extends AbstractSeq[A]
 
 今回のスライドでは
 
-### Scalaの変位指定が
-### しっくりきていない方に
+### 変位指定がしっくりきていない方に
 
 * 共変、反変、非変とは
 * 境界指定(上限境界、下限境界)とは
@@ -127,7 +126,6 @@ class Glass[T](var content:T) {
 
 <br>
 <br>
-<br>
 
 ```Scala
 class Drink
@@ -144,15 +142,18 @@ scala> val waterGlass =  new Glass[Water](new Water)
 waterGlass: Glass[Water] = Glass@2251ccd8
 ```
 
----
+---?image=img/Drink1.png&position=top&size=50%
 
-このまま、変位指定について
+<br>
+<br>
 
-変位指定は以下の3つがあります
+```scala
+class Drink
+class Juice extends Drink
+class Water extends Drink
 
-* 非変[T]
-* 共変[+T]
-* 反変[-T]
+```
+
 
 ---
 
