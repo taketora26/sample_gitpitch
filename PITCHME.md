@@ -271,9 +271,6 @@ scala> val arrayDrink:Array[Drink] = arrayWater
 ---
 
 ```scala
-val water = new Water
-val juice = new Juice
-
 // Array[Water]を作成
 val arrayWater:Array[Water] = Array(water,water)
 
