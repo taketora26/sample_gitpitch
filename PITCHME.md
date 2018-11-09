@@ -181,7 +181,7 @@ val drink:Drink = new Juice
 ```
 ジュースもドリンクに適合します。
 
----?image=img/gass_all.png&position=top
+---?image=img/gass_all.png&position=top&size=70%
 
 <br>
 <br>
