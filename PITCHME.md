@@ -181,9 +181,13 @@ val drink:Drink = new Juice
 ```
 ジュースもドリンクに適合します。
 
----
+---?image=img/gass_all.png&position=top&size=55%
 
-## 一方で型パラメータ`Glass`の型に入れた場合は、このままサブタイプを適合できません
+<br>
+<br>
+
+#### 一方で型パラメータ`Glass[T]`の型は、
+#### このままサブタイプの関係を使えません
 
 ---
 
