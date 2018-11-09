@@ -134,21 +134,42 @@ class Juice extends Drink
 class Water extends Drink
 ```
 
----?image=img/cup.png&position=top&size=50%
+---?image=img/cup.png&position=top&size=60%
 
 <br>
 <br>
-
-```Scala
-scala> val juiceGlass = new Glass[Juice](new Juice)
-juiceGlass: Glass[Juice] = Glass@4fb799d3
-```
 
 ```Scala
 scala> val waterGlass =  new Glass[Water](new Water)
 waterGlass: Glass[Water] = Glass@2251ccd8
 ```
+
+```Scala
+scala> val juiceGlass = new Glass[Juice](new Juice)
+juiceGlass: Glass[Juice] = Glass@4fb799d3
+```
+---?image=img/w2d.png&position=top&size=60%
+
+<br>
+
+```scala
+val drink:Drink = new Water
+```
+水はドリンクに適合します。
+
+### 意訳すると、Drink型とみなすことができます。
+
+---?image=img/j2d.png&position=top&size=60%
+
+<br>
+
+```scala
+val drink:Drink = new Juice
+```
+ジュースもドリンクに適合します。
+
 ---
+
 
 * 非変[T]
 

@@ -17,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="245">
-                <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
+              <first_editor relative-caret-position="54">
+                <caret line="142" column="13" lean-forward="true" selection-start-line="142" selection-start-column="13" selection-end-line="142" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -239,7 +239,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40818000" />
+    <option name="totallyTimeSpent" value="41548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="473" y="274" width="1176" height="765" extended-state="0" />
@@ -631,8 +631,8 @@
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="245">
-            <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
+          <first_editor relative-caret-position="54">
+            <caret line="142" column="13" lean-forward="true" selection-start-line="142" selection-start-column="13" selection-end-line="142" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
