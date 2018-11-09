@@ -212,7 +212,6 @@ Glass[Water]型をGlass[Drink]型に適応することができません。
 <br>
 <br>
 <br>
-<br>
 
 ```scala
 scala> val glassWater: Glass[Water] = new Glass[Water](new Water)
@@ -223,11 +222,13 @@ glassWater: Glass[Water] = Glass@6874517b
 
 ---
 
-これを非変[T]といいます。
+#### これを非変`[T]`といいます。
 
 変異指定が非変の場合
 
-サブタイプ関係を型パラメータで持つことができません。
+サブタイプ関係を
+
+型パラメータで持つことができません。
 
 Glass[Water]型をGlass[Drink]型に適応できない。
 
@@ -240,10 +241,6 @@ final class Array[T] extends java.io.Serializable with java.lang.Cloneable
 
 ```
 
----
-
-#### なぜArrayは非変なのか？
-
 ```scala
 scala> val water:Water = new Water
 
@@ -254,14 +251,21 @@ scala> val arrayDrink:Array[Drink] = arrayWater
 
 ```
 
+---
 
+#### なぜ`Array`は非変なのか？
+
+
+```scala
+
+
+```
 
 Arrayが可変(mutable)なコレクションであるため、
 
 非変でない場合に、要素が変更されて
 
 要素を取り出す際に型が変わっていることが発生してしまう
-
 
 
 ---

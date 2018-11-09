@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0b5d8bd5-c63b-4379-9c61-9c208d28e339" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/PITCHME.md" beforeDir="false" afterPath="$PROJECT_DIR$/PITCHME.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.scala" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="229">
-                <caret line="246" lean-forward="true" selection-start-line="246" selection-end-line="246" />
+              <first_editor relative-caret-position="135">
+                <caret line="522" lean-forward="true" selection-start-line="522" selection-end-line="522" />
               </first_editor>
               <second_editor />
             </state>
@@ -110,7 +109,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="307" />
+    <option name="x" value="189" />
     <option name="y" value="244" />
     <option name="width" value="1176" />
     <option name="height" value="765" />
@@ -248,10 +247,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46702000" />
+    <option name="totallyTimeSpent" value="47359000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="307" y="244" width="1176" height="765" extended-state="0" />
+    <frame x="189" y="244" width="1176" height="765" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -646,8 +645,8 @@
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="229">
-            <caret line="246" lean-forward="true" selection-start-line="246" selection-end-line="246" />
+          <first_editor relative-caret-position="135">
+            <caret line="522" lean-forward="true" selection-start-line="522" selection-end-line="522" />
           </first_editor>
           <second_editor />
         </state>
