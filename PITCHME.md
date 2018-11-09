@@ -155,7 +155,8 @@ Scalaは型の親子関係により
 
 1つのスーパークラスにサブクラスのインスタンスを適合できます。
 
-#### これをサブタイプと言います
+#### これをサブタイプ(`Subtype Polymorphis`)
+と言います
 
 ---?image=img/w2d.png&position=top&size=60%
 
