@@ -29,6 +29,9 @@ Scala関西Summit 2018
 
 ---?image=img/map1.png&size=100% %&color=White
 
+---?image=img/map2.jpg&size=100% %&color=White
+
+
 ---
 
 ## 完走しました
