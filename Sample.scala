@@ -1,4 +1,7 @@
 
+#ロゴアイコンの設定
+# logo : img/Sepori_log2.gif
+
 
 class 子供のおもちゃ
 class アブが結ばれた藁 extends 子供のおもちゃ
