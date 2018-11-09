@@ -3,6 +3,9 @@
 //# logo : img/Sepori_log2.gif
 
 
+Array
+
+
 class 子供のおもちゃ
 class アブが結ばれた藁 extends 子供のおもちゃ
 class アブと風車が結ばれた藁 extends アブが結ばれた藁

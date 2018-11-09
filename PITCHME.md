@@ -225,26 +225,44 @@ glassWater: Glass[Water] = Glass@6874517b
 
 これを非変[T]といいます。
 
-変異指定が非変の場合、サブタイプ関係を型パラメータで持たせません
+変異指定が非変の場合
+
+サブタイプ関係を型パラメータで持つことができません。
+
+Glass[Water]型をGlass[Drink]型に適応できない。
 
 ---
 
+ScalaではArrayが非変で作られています。
 
+```scala
+final class Array[T] extends java.io.Serializable with java.lang.Cloneable
 
-
-* 非変[T]
-
-<img src="https://github.com/taketora26/sample_gitpitch/blob/rpscala/img/amount_water_glass1.png?raw=true" width="200">
-
-```Scala
-class Glass[T](var content:T) {
-  def put(t:T):Unit = { content = t }
-  def get:T = content
-}
 ```
 
-* 型を厳格にする定義です。同じ型のインスタンスしか変数に適合できません。
-* 型パラメータを使うときに変異を指定していない場合は非変です。
+---
+
+#### なぜArrayは非変なのか？
+
+```scala
+scala> val water:Water = new Water
+
+scala> val arrayWater : Array[Water] = Array(water,water)
+
+scala> val arrayDrink:Array[Drink] = arrayWater
+<console>:16: error: type mismatch;
+
+```
+
+
+
+Arrayが可変(mutable)なコレクションであるため、
+
+非変でない場合に、要素が変更されて
+
+要素を取り出す際に型が変わっていることが発生してしまう
+
+
 
 ---
 
