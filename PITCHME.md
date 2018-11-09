@@ -142,7 +142,7 @@ scala> val waterGlass =  new Glass[Water](new Water)
 waterGlass: Glass[Water] = Glass@2251ccd8
 ```
 
----?image=img/Drink1.png&position=top&size=100%
+---?image=img/Drink1.png&position=top&size=80%
 
 <br>
 
