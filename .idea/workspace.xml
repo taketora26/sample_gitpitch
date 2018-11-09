@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b5d8bd5-c63b-4379-9c61-9c208d28e339" name="Default" comment="" />
+    <list default="true" id="0b5d8bd5-c63b-4379-9c61-9c208d28e339" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/PITCHME.md" beforeDir="false" afterPath="$PROJECT_DIR$/PITCHME.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="186">
-                <caret line="105" column="58" selection-start-line="105" selection-start-column="58" selection-end-line="105" selection-end-column="58" />
+              <first_editor relative-caret-position="169">
+                <caret line="220" lean-forward="true" selection-start-line="220" selection-end-line="220" />
               </first_editor>
               <second_editor />
             </state>
@@ -233,10 +235,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45732000" />
+    <option name="totallyTimeSpent" value="45984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="473" y="274" width="1176" height="765" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -620,8 +623,8 @@
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="186">
-            <caret line="105" column="58" selection-start-line="105" selection-start-column="58" selection-end-line="105" selection-end-column="58" />
+          <first_editor relative-caret-position="169">
+            <caret line="220" lean-forward="true" selection-start-line="220" selection-end-line="220" />
           </first_editor>
           <second_editor />
         </state>

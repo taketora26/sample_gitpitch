@@ -181,8 +181,10 @@ val drink:Drink = new Water
 val drink:Drink = new Juice
 ```
 ジュースもドリンクに適合します。
+#### `Drink`型とみなすことができます。
 
----?image=img/gass_all.png&position=top&size=70%
+
+---?image=img/gass_all.png&position=top&size=75%
 
 <br>
 <br>
@@ -212,12 +214,12 @@ Glass[Water]型をGlass[Drink]型に適応することができません。
 <br>
 <br>
 
-もちろん同じ型であれば、適応できます。
-
 ```scala
 scala> val glassWater: Glass[Water] = new Glass[Water](new Water)
 glassWater: Glass[Water] = Glass@6874517b
 ```
+
+もちろん同じ型であれば、適応できます。
 
 ---
 
