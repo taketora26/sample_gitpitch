@@ -195,11 +195,6 @@ val drink:Drink = new Juice
 ```scala
 scala> val glassDrink: Glass[Drink] = new Glass[Water](new Water)
  <console>:17: error: type mismatch;
- found   : Glass[Water]
- required: Glass[Drink]
-Note: Water <: Drink, but class Glass is invariant in type T.
-You may wish to define T as +T instead. (SLS 4.5)
-       val glassDrink: Glass[Drink] = new Glass[Water](new Water)
 ```
 
 Glass[Water]型をGlass[Drink]型に適応することができません。
