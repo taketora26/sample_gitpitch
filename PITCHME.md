@@ -148,6 +148,16 @@ waterGlass: Glass[Water] = Glass@2251ccd8
 scala> val juiceGlass = new Glass[Juice](new Juice)
 juiceGlass: Glass[Juice] = Glass@4fb799d3
 ```
+
+---
+
+Scalaはオブジェクト指向のなので、
+
+型の親子関係により
+
+1つのスーパークラスにサブクラスのインスタンスを適合できます。
+
+
 ---?image=img/w2d.png&position=top&size=60%
 
 <br>
@@ -165,12 +175,15 @@ val drink:Drink = new Water
 
 <br>
 <br>
-<br>
 
 ```scala
 val drink:Drink = new Juice
 ```
 ジュースもドリンクに適合します。
+
+---
+
+## 一方で型パラメータ`Glass`の型に入れた場合は、このままサブタイプを適合できません
 
 ---
 
