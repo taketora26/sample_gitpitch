@@ -29,7 +29,7 @@ Scala関西Summit 2018
 
 ---?image=img/map1.png&size=100% %&color=White
 
-<img src="https://github.com/taketora26/sample_gitpitch/blob/kansai/img/chiba.png?raw=true&position=top&size=15%" >
+<img src="https://github.com/taketora26/sample_gitpitch/kansai/img/chiba.png?raw=true&position=top&size=15%" >
 
 
 ---
