@@ -151,16 +151,20 @@ juiceGlass: Glass[Juice] = Glass@4fb799d3
 ---?image=img/w2d.png&position=top&size=60%
 
 <br>
+<br>
+<br>
 
 ```scala
 val drink:Drink = new Water
 ```
 水はドリンクに適合します。
 
-### 意訳すると、Drink型とみなすことができます。
+#### Drink型とみなすことができます。
 
----?image=img/j2d.png&position=top&size=60%
+---?image=img/j2d.png&position=top&size=55%
 
+<br>
+<br>
 <br>
 
 ```scala
