@@ -311,12 +311,6 @@ val water:Water = arrayWater(0)
 ---
 
 
-
-```scala
-scala> List("🍺", "☕", "🍸")
-res3: List[String] = List(🍺, ☕️, 🍸)
-```
-
 ---
 
 
