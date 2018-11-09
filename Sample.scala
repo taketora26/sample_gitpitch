@@ -54,3 +54,16 @@ val 大きな屋敷の主人:馬 => 屋敷
 //和服を着た女性のイラスト　https://www.irasutoya.com/2015/10/blog-post_22.html
 
 // 赤ちゃんを抱っこしているお母さんのイラスト https://www.irasutoya.com/2014/10/blog-post_781.html
+
+
+class Drink
+class Water extends Drink
+class Juice extends Drink
+
+val water = new Water
+val juice = new Juice
+val arrayWater:Array[Water] = Array(water,water)
+val arrayDrink:Array[Drink] = arrayWater
+arrayDrink(0) = juice
+
+val water2:Water = arrayWater(0)

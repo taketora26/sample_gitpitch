@@ -255,11 +255,32 @@ scala> val arrayDrink:Array[Drink] = arrayWater
 
 #### なぜ`Array`は非変なのか？
 
+Arrayは可変なコレクションです。
+
+
+
 
 ```scala
+val water = new Water
+val juice = new Juice
 
+// Array[Water]を作成
+val arrayWater:Array[Water] = Array(water,water)
+
+//もし、Array[Water]をArray[Drink]に適合できた場合
+val arrayDrink:Array[Drink] = arrayWater
+
+// 要素をアップデートする
+arrayDrink(0) = juice 
+
+// しかし、Arrayは可変なコレクションなのでarrayWaterの要素も変更されてしまう
+
+// arrayWaterからWaterの要素を取り出す時に
+val water:Water = arrayWater(0) 
 
 ```
+
+---
 
 Arrayが可変(mutable)なコレクションであるため、
 
