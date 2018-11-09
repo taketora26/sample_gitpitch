@@ -103,7 +103,7 @@ sealed abstract class List[+A] extends AbstractSeq[A]
 
 まず型パラメータを紹介
 
----?image=img/amount_water_glass1.png&position=top&size=30%
+---?image=img/amount_water_glass1.png&position=top&size=20%
 
 Scalaの型パラメータ
 
