@@ -27,7 +27,7 @@ Scala関西Summit 2018
 @color[white](先月)
 @color[white](千葉の**アクアラインマラソン**に走ってきました。)
 
----?image=img/map1.png
+---?image=img/map1.png&size=100% %&color=White
 
 
 ---
