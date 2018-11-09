@@ -181,18 +181,48 @@ val drink:Drink = new Juice
 ```
 ジュースもドリンクに適合します。
 
----?image=img/gass_all.png&position=top&size=55%
+---?image=img/gass_all.png&position=top&size=60%
 
-<br>
-<br>
 
 #### 一方で型パラメータ`Glass[T]`の型は、
-#### このままサブタイプの関係を使えません
+#### このままの状態ですとサブタイプが使えません
+
+---?image=img/w2d_ng.png&position=top&size=60%
+
+
+```scala
+scala> val glassDrink: Glass[Drink] = new Glass[Water](new Water)
+<console>:17: error: type mismatch;
+ found   : Glass[Water]
+ required: Glass[Drink]
+Note: Water <: Drink, but class Glass is invariant in type T.
+You may wish to define T as +T instead. (SLS 4.5)
+       val glassDrink: Glass[Drink] = new Glass[Water](new Water)
+                                      ^
+```
+
+Glass[Water]型をGlass[Drink]型に適応することができません。
+
+---?image=img/w2w_ok.png&position=top&size=60%
+
+もちろん同じ型であれば、適応できます。
+
+```scala
+scala> val glassWater: Glass[Water] = new Glass[Water](new Water)
+glassWater: Glass[Water] = Glass@6874517b
+```
+
+---
+
+これを非変といいます。
+
+* 非変[T]
+
+サブタイプ関係を型パラメータで持たせません
 
 ---
 
 
----
 
 
 * 非変[T]
