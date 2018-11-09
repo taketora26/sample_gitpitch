@@ -61,7 +61,7 @@ Scalaを勉強し始めた時に、
 
 実際に変位指定を定義して
 
-ロダクト開発を行う機会は少なく
+プロダクト開発を行う機会は少なく
 
 ---
 
@@ -73,8 +73,6 @@ Scalaの言語仕様などで
  
  変位指定を見かけます。
 
-* List型の定義
-
 ```Scala
 sealed abstract class List[+A] extends AbstractSeq[A]
 ・・・(省略)
@@ -83,12 +81,15 @@ sealed abstract class List[+A] extends AbstractSeq[A]
     new scala.collection.immutable.::(x, this)
 ```
 
+* List型の定義
+
 ---
 
 
 今回のスライドでは
 
-### Scalaの変位指定がしっくりきていない方に
+### Scalaの変位指定が
+### しっくりきていない方に
 
 * 共変、反変、非変とは
 * 境界指定(上限境界、下限境界)とは
