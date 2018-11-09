@@ -280,7 +280,7 @@ res14: Array[Int] = Array(4, 2, 3)
 ```scala
 scala> val water:Water = new Water
 
-scala> val arrayWater : Array[Water] = Array(water,water)
+scala> val arrayWater : Array[Water] = Array(water)
 
 scala> val arrayDrink:Array[Drink] = arrayWater
 <console>:16: error: type mismatch;
@@ -291,28 +291,32 @@ scala> val arrayDrink:Array[Drink] = arrayWater
 ---
 
 ```scala
-val arrayWater:Array[Water] = Array(water,water)
+val arrayWater:Array[Water] = Array(new Water)
 
 //もし、Array[Water]をArray[Drink]に適合できた場合
 val arrayDrink:Array[Drink] = arrayWater
 
-arrayDrink(0) = juice 
+arrayDrink(0) = new Juice 
 
 val water:Water = arrayWater(0) 
 // => juice
 
 ```
 
-* Arrayが可変(mutable)なコレクション
-* サブタイプがそのまま使えると、要素が変更される
+* Arrayはmutableなコレクション
+* サブタイプが使えると、要素が変更される
 * 型安全が壊れてしまう
-* 要素を取り出す際に意図しない型の要素が出てくる
+* 間違った型の要素を取り出す
 
 ---
 
+これらの問題が出てくるので、Arrayは非変で作られています。
 
 ---
 
+共変です
+
+---
 
 # APPENDIX
 ---
