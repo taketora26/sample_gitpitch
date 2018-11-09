@@ -224,13 +224,32 @@ glassWater: Glass[Water] = Glass@6874517b
 
 #### これを非変`[T]`といいます。
 
-変異指定が非変の場合
 
 サブタイプ関係を
 
 型パラメータで持つことができません。
 
 Glass[Water]型をGlass[Drink]型に適応できない。
+
+---
+
+このように、サブタイプ関係を型パラメータで制約したり、
+またはそのまま使えたり、サブタイプ関係を逆転させるために
+
+**変異指定**があります。
+
+---
+
+#### 型パラメータの変位にはこの3つあります
+
+* 非変[T]
+* 共変[+T]
+* 反変[-T]
+
+---
+
+型パラメータでもサブタイプ関係をそのまま使える変異が共変[+T]になり、
+多くのコレクションが共変で作られています。
 
 ---
 
@@ -302,125 +321,6 @@ Arrayが可変(mutable)なコレクションであるため、
 ---
 
 
-
-
-Javaをやっている人は
-
-### 「あ、ジャバでいう総称型ですね」
-
-とか即座に理解されますが、
-
-Javaをやっていない私は
-
-全然わかりませんでした😇
-
----
-
-Genericsとは
-
-### 汎用的なクラスやメソッドを
-### 特定の型に対応づける機能のこと
-
-(Java SE5.0 から導入されました。)
-
----
-
-ジェネリクスってなんのためにあるの？
-
----
-
-<img src="https://raw.githubusercontent.com/taketora26/sample_gitpitch/itpro/img/nouka.png?raw=true" width="200">
-
-あなたは果物農家で、収穫した果物を果物屋さんやりんごジュース屋さんに配送しています。
-
----
-
-<img src="https://raw.githubusercontent.com/taketora26/sample_gitpitch/itpro/img/takuhai_yasai_box.png?raw=true" width="150">
-
-収穫した果物を配送するために
-
-**ダンボール箱**を使っていました。
-
-* ジュース屋さんにはりんごが入ったダウンボールのみ
-* 果物屋さんには果物が入ったダンボールであればなんでも受け取ってくれました。
-
-
----
-
-ジェネリクスが生まれる前までは
-
-* りんご用のダンボール
-* バナナ用にダンボール
-* フルーツ用のダンボール
-
-を**それぞれダンボール独自に作っていました。**
----
-
-それぞれの果物に対応したダンボールを作るのは、ちょっと手間。
-
-```Scala
-
-//りんご用のダンボール
-class Box[Apple](var value: Apple) {
-  def put(apple:Apple):Unit = { value = apple }
-  def get: Apple = value
-}
-
-//フルーツ用のりんご
-class Box[Fruits](var value: Fruits) {
-  def put(fruits: Fruits):Unit = { value = fruits }
-  def get: Fruits = value
-}
-
-```
-
-```Scala
-
-
-
-```
-
-
----
-
-### でもやっていることはダンボールに果物を入れて適切な場所に配送することです。
-
-
----
-ここでジェネリクスが導入されました。
-
-```Scala
-class Box[T](var value:T) {
-  def put(t:T):Unit = { value = t }
-  def get:T = value
-}
-```
----
-
-ジェネリクスのおかけで
-
-りんご用かバナナ用か、フルーツ用かは決めずに
-ダンボール箱を用意できる体制にできました。
-
-```Scala
-scala> val appleBox = new Box[Apple](new Apple)
-appleBox: Box[Apple] = Box@37e22cfb
-
-scala> val fruitsBox = new Box[Fruits](new Fruits)
-fruitsBox: Box[Fruits] = Box@6ab5f533
-
-```
----
-
-つまりジェネリクスとは
-
-#### クラスの定義時には何の型が入るか決まっていないけども、
-#### インスタンス化する際に型を決定する機能のこと
----
-
-Scalaではこのことを
-
-**型パラメータ(parameterized types)** と呼びます。
 
 ---
 

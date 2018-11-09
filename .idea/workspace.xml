@@ -17,8 +17,8 @@
         <entry file="file://$PROJECT_DIR$/PITCHME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="191">
-                <caret line="283" lean-forward="true" selection-start-line="283" selection-end-line="283" />
+              <first_editor relative-caret-position="255">
+                <caret line="236" column="19" selection-start-line="236" selection-start-column="19" selection-end-line="236" selection-end-column="21" />
               </first_editor>
               <second_editor />
             </state>
@@ -109,8 +109,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="778" />
-    <option name="y" value="-969" />
+    <option name="x" value="422" />
+    <option name="y" value="-1010" />
     <option name="width" value="1176" />
     <option name="height" value="765" />
   </component>
@@ -247,10 +247,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49389000" />
+    <option name="totallyTimeSpent" value="49696000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="778" y="-969" width="1176" height="765" extended-state="0" />
+    <frame x="422" y="-1010" width="1176" height="765" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -645,8 +645,8 @@
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="191">
-            <caret line="283" lean-forward="true" selection-start-line="283" selection-end-line="283" />
+          <first_editor relative-caret-position="255">
+            <caret line="236" column="19" selection-start-line="236" selection-start-column="19" selection-end-line="236" selection-end-column="21" />
           </first_editor>
           <second_editor />
         </state>
