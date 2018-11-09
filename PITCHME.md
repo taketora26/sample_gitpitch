@@ -1,12 +1,12 @@
-## (Pre)変位指定について
+## 変位指定について
 
 ## わかりやすく
 
 ## 解説させてください
 
-2018/10/31 
+2018/11/10 
 
-Scala勉強会第231回 in 西新宿
+Scala関西Summit 2018
 
 池田 健虎
 
@@ -15,7 +15,8 @@ Scala勉強会第231回 in 西新宿
 <img src="https://pbs.twimg.com/profile_images/813291577682509824/eut9iJB2_400x400.jpg" width="200">
 
 * [@taket0ra1](https://twitter.com/taket0ra1)
-* セプテーニ・オリジナル
+* セプテーニ・オリジナル 4年目
+* 社内外でScalaを教えています
 
 ---
 
