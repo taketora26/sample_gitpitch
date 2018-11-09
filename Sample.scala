@@ -1,6 +1,6 @@
 
-#ロゴアイコンの設定
-# logo : img/Sepori_log2.gif
+//# ロゴアイコンの設定
+//# logo : img/Sepori_log2.gif
 
 
 class 子供のおもちゃ
