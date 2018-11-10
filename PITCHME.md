@@ -349,15 +349,10 @@ List[Int]をList[Any]に適合できるます。
 ボトムタイプのNothing型を全ての型に適応できます。
 
 
-|	Any			|
+|	Any	|		|
 |	:-:	|	:-:	|
 |	AnyVal	|	AnyRef	|
-|	"Unit
-Int
-Long
-Double
-Byteなど"	|	"通常のクラス
-Stringなど"	|
+|	Int,Long,Double,Byteなど | 通常のクラス,Stringなど|
 |		|	Null	|
 |	Nothing	|		|
 
