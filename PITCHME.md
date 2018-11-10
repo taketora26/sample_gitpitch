@@ -17,7 +17,6 @@ Scala関西Summit 2018
 * [@taket0ra1](https://twitter.com/taket0ra1)
 * セプテーニ・オリジナル
 * 社内外でScalaを教えています
-* 中途採用担当
 
 ---
 
@@ -484,7 +483,7 @@ res14: Array[Int] = Array(4, 2, 3)
 
 ---
 
-### mutableなコレクションで、
+### mutableなクラスで、
 
 ### 引数に共変の型パラメータをとると
 
@@ -761,7 +760,12 @@ trait Function1[-T1, +R] extends AnyRef
 ---
 
 ### まとめ
-* 
+
+mutableなクラスは、
+
+引数に共変の型パラメータをとると
+
+型安全でなくなってしまう。
 
 ####  共変
 * List、Option、Seq、Mapなど
