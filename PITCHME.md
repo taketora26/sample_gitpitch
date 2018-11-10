@@ -348,13 +348,7 @@ List[Int]をList[Any]に適合できるます。
 サブタイプの関係を使えるので、
 ボトムタイプのNothing型を全ての型に適応できます。
 
-
-|	Any	|		|
-|	:-:	|	:-:	|
-|	AnyVal	|	AnyRef	|
-|	Int,Long,Double,Byteなど | 通常のクラス,Stringなど|
-|		|	Null	|
-|	Nothing	|		|
+keisyo.png
 
 ---
 

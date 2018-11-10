@@ -17,8 +17,8 @@
             <entry file="file://$PROJECT_DIR$/PITCHME.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="331">
-                    <caret line="361" column="21" lean-forward="true" selection-start-line="361" selection-start-column="21" selection-end-line="361" selection-end-column="21" />
+                  <first_editor relative-caret-position="166">
+                    <caret line="350" lean-forward="true" selection-start-line="350" selection-end-line="357" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -125,7 +125,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="233" />
+    <option name="x" value="65" />
     <option name="y" value="23" />
     <option name="width" value="1427" />
     <option name="height" value="985" />
@@ -263,10 +263,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59952000" />
+    <option name="totallyTimeSpent" value="60238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="233" y="23" width="1427" height="985" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -660,8 +661,8 @@
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="331">
-            <caret line="361" column="21" lean-forward="true" selection-start-line="361" selection-start-column="21" selection-end-line="361" selection-end-column="21" />
+          <first_editor relative-caret-position="166">
+            <caret line="350" lean-forward="true" selection-start-line="350" selection-end-line="357" />
           </first_editor>
           <second_editor />
         </state>
