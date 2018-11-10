@@ -457,7 +457,7 @@ res3: String = Hello!Hello!
 
 みなさん、わらしべ長者の話は知っていますか？
 
----?image=img/wara.png&position=top
+---?image=img/wara.png&position=top&size=70%
 
 <br>
 
