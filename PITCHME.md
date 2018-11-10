@@ -343,16 +343,16 @@ scala> val list:List[Int] = Nil
 scala> val list:List[String] = Nil
 ```
 
+共変であるため、空のコレクションを作ることが簡単にできます。
+
 ---
 
-一方非変定義されているコレクションにArrayがあります。
+一方で、非変定義されているコレクションにArrayがあります。
 
 ```scala
 final class Array[T] extends java.io.Serializable with java.lang.Cloneable
 
 ```
-
-
 
 ---
 
@@ -407,23 +407,20 @@ val water:Water = arrayWater(0)
 
 これらの問題が出てくるので、Arrayは非変で作られています。
 
----
+ミュータブルなリストであるListBufferも同様に非変です。
 
-共変について
+```scala
+final class ListBuffer[A]
 
----
-
-
-みなさんが使っているimmutableなListは共変です
-
-
-```Scala
-sealed abstract class List[+A] extends AbstractSeq[A]
 ```
 
 ---
 
-反変について、なかなかメリットがわからないと思いますが、
+最後に反変について
+
+---
+
+なかなかメリットがわからないと思いますが、
 実はみなさんがすでに使っているものの中に反変があります。
 
 それがFunctionNです
@@ -449,18 +446,27 @@ res3: String = Hello!Hello!
 
 ---
 
-ここでわらしべ長者の話をします。
+抽象的にいうと `Function1`は、何か引数を渡して、何かを返す関数です。
 
 ---
 
-わらしべ長者は藁を拾い、
+みなさん、わらしべ長者の話は知っていますか？
+
+---
+
+わらしべ長者は、最初はとても貧乏だったのですが、
+
+最初に持っていた藁を物々交換して、最後に大金持ちになる話です
+
+---
 
 * アブを結んだ藁をみかんへ
 * みかんを半物へ
 * 半物を馬へ
 * 馬を屋敷へ
 
-交換していったお話です。
+---
+
 何かを渡して、何かを得る。
 これ関数と同じ構造ですよね。
 
