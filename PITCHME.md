@@ -345,10 +345,10 @@ List[Int]をList[Any]に適合できます。
 
 ---
 
+<img src="https://github.com/taketora26/sample_gitpitch/blob/kansai/img/kaisou.png?raw=true"  width="300">
+
 サブタイプの関係を使えるので、
 ボトムタイプのNothing型を全ての型に適応できます。
-
-<img src="https://github.com/taketora26/sample_gitpitch/blob/kansai/img/kaisou.png?raw=true"  width="300">
 
 ```scala
 scala> val list:List[Nothing] = Nil
