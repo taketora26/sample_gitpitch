@@ -516,6 +516,22 @@ val 大きな屋敷の主人:馬 => 屋敷
 ```scala
 var 子連れの母親 : アブが結ばれた藁 => みかん
 ```
+---?image=img/haha2.png&position=top&size=100%
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+```scala
+var 子連れの母親2 : アブが結ばれた藁 => 果物
+```
 
 ---
 
