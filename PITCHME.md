@@ -287,10 +287,11 @@ Scalaの多くのimmutableなコレクションは
 共変で定義されています。
 
 ```scala
-
 sealed abstract class List[+A] extends AbstractSeq[A]
 
+sealed abstract class Option[+A] extends Product with Serializable 
 
+final case class Success[+T](value: T) extends Try[T] 
 
 ```
 
@@ -304,6 +305,8 @@ sealed abstract class List[+A] extends AbstractSeq[A]
 final class Array[T] extends java.io.Serializable with java.lang.Cloneable
 
 ```
+
+
 
 ---
 

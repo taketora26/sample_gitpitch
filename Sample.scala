@@ -1,4 +1,4 @@
-
+import scala.util.Success
 //# ロゴアイコンの設定
 //# logo : img/Sepori_log2.gif
 
@@ -75,3 +75,12 @@ val water2:Water = arrayWater(0)
 
 
 List
+
+()
+Seq
+
+Option
+
+
+Success
+Failure
