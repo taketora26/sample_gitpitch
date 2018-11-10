@@ -5,7 +5,9 @@ import scala.util.{Success, Try}
 
 Array
 
-class Glass[-T](val content:T)
+class Glass[+T](content:T) {
+  def put(v:content) = v
+}
 
 
 class 子供のおもちゃ

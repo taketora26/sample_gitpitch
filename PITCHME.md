@@ -761,12 +761,6 @@ trait Function1[-T1, +R] extends AnyRef
 
 ### まとめ
 
-mutableなクラスは、
-
-引数に共変の型パラメータをとると
-
-型安全でなくなってしまう。
-
 ####  共変
 * List、Option、Seq、Mapなど
 * immutableなコレクションでよく使われる
