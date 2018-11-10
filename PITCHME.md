@@ -412,7 +412,7 @@ listAny: List[Any] = List(hello, 1, 2, 3, 4)
 
 ---
 
-下限境界を設定することによって、Listは要素が異なる場合は、追加する要素と共通するスーパークラスが入ることがわかります。
+下限境界を設定することによって、コンパイラがListの要素が異なる場合は、追加する要素と共通するスーパークラスが入ることがわかります。
 
 
 ---
@@ -460,7 +460,7 @@ scala> val arrayDrink:Array[Drink] = arrayWater
 ```
 ---
 
-Arrayは可変なコレクション(配列)です。
+Arrayはmutableなコレクション(配列)です。
 
 ```scala
 scala> val arr:Array[Int] = Array(1,2,3)
@@ -473,6 +473,12 @@ res14: Array[Int] = Array(4, 2, 3)
 ```
 
 ---?image=img/arrW.png
+
+---
+
+mutableなコレクションで、引数に共変の型パラメータをとると
+
+型安全でなくなってしまう。
 
 ---
 
@@ -513,7 +519,7 @@ final class ListBuffer[A]
 
 ---
 
-サブタイプの関係が逆転しても
+反変によってサブタイプの関係が逆転しても
 
 なかなかメリットがわからないと思いますが、
 
@@ -747,7 +753,7 @@ trait Function1[-T1, +R] extends AnyRef
 ### まとめ1
 
 ####  共変
-* List、Option、Seq、Map
+* List、Option、Seq、Mapなど
 * イミュータブルなコレクションでよく使われる
 * ボトムが使えるので、空のコレクションを作るのが簡単
 * イミュータブルなので、共変の型パラメータを引数に持ってきても型安全
@@ -755,7 +761,7 @@ trait Function1[-T1, +R] extends AnyRef
 ---
 
 #### 非変
-* Array、ListBuffer
+* Array、ListBufferなど
 * ミュータブルなコレクションで使われることがある
 * 非変にすることで型安全になっている。
 
@@ -766,8 +772,13 @@ trait Function1[-T1, +R] extends AnyRef
 * 反変の定義としてFunctionNがある
   * 引数は汎化でき、返り値は特化できる
 
+
 #### 境界指定(上限境界、下限境界)
 * コンパイラが型安全を認識するために設定している
+
+---
+
+ご静聴ありがとうございました！
 
 ---
 
