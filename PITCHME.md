@@ -20,35 +20,6 @@ Scala関西Summit 2018
 
 ---
 
-ひとつ共有させてください
-
----?image=img/008.jpg
-
-@color[white](先月)
-
-@color[white](千葉の**アクアラインマラソン**に走ってきました。)
-
----
-
-## 完走しました
-
-<img src="https://github.com/taketora26/sample_gitpitch/blob/master/img/IMG_2142.JPG?raw=true" width="400">
-
-2回目のフルマラソンでした。
-
----?image=img/map1.png&size=100% %&color=White
-
----?image=img/map2.jpg&size=100% %&color=White
----
-
-本題です
----
-
-## 変位指定について
-## わかりやすく
-## 解説させてください
----
-
 みなさん、
 
 変位指定を普段定義することはありますか？
