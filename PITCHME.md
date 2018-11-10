@@ -447,18 +447,23 @@ res3: String = Hello!Hello!
 
 ---
 
- `Function1`は、何か引数を渡すと、何かを返す関数です。
+ `Function1`とは
+ 
+ 何か引数を渡すと
+ 
+ 何かを返してくれる関数です。
 
 ---
 
 みなさん、わらしべ長者の話は知っていますか？
 
----?image=img/wara.png&position=top&size=60%
+---?image=img/wara.png&position=top&size=40%
 
 <br>
 <br>
+<br>
 
-わらしべ長者は、とても貧乏だったのですが、
+わらしべ長者は、もともと貧乏だったのですが、
 
 最初に持っていた藁を物々交換して、最終的に大金持ちになる話です
 
