@@ -299,7 +299,7 @@ Scalaの多くのimmutableなコレクションは
 
 共変で定義されています。
 
-(List、Seq、Tuple、Option、Either、Try)
+(Seq、List、Tuple、Option、Either、Try)
 
 ```scala
 sealed abstract class List[+A] extends AbstractSeq[A]
@@ -311,9 +311,37 @@ final case class Success[+T](value: T) extends Try[T]
 
 ---
 
-みなさんがよく使っているであろうListは共変です
+みなさんがよく使っているListも共変です。
 
 共変にすることによって
+
+共変ではサブタイプの関係をそのまま使えます。
+
+```scala
+scala> val list:List[Any] = List[Int](1,2,3)
+list: List[Any] = List(1, 2, 3)
+
+```
+
+List[Int]をList[Any]に適合できます。
+#### (意訳)`List[Int]`を`List[Any]`と見なすことができます)
+
+---
+
+<img src="https://github.com/taketora26/sample_gitpitch/blob/kansai/img/kaisou.png?raw=true"  width="300">
+
+サブタイプの関係を使えるので、
+ボトムタイプのNothing型を全ての型に適応できます。
+
+```scala
+case object Nil extends List[Nothing]
+```
+
+```scala
+scala> val list:List[Int] = Nil
+
+scala> val list:List[String] = Nil
+```
 
 ---
 
@@ -392,44 +420,6 @@ val water:Water = arrayWater(0)
 ```Scala
 sealed abstract class List[+A] extends AbstractSeq[A]
 ```
-
----
-
-共変ではサブタイプの関係をそのまま使えます。
-
-```scala
-scala> val list:List[Any] = List[Int](1,2,3)
-list: List[Any] = List(1, 2, 3)
-
-```
-
-List[Int]をList[Any]に適合できます。
-#### (意訳)`List[Int]`を`List[Any]`と見なすことができます)
-
-
----
-
-<img src="https://github.com/taketora26/sample_gitpitch/blob/kansai/img/kaisou.png?raw=true"  width="300">
-
-サブタイプの関係を使えるので、
-ボトムタイプのNothing型を全ての型に適応できます。
-
-```scala
-case object Nil extends List[Nothing]
-```
-
-```scala
-scala> val list:List[Int] = Nil
-
-scala> val list:List[String] = Nil
-```
-
----
-
-ListはArrayと異なり、immutableなので一度作ったインスタンスを変化させず
-新たにインスタンスを作ります。
-
-
 
 ---
 
