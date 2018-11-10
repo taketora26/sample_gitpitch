@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b5d8bd5-c63b-4379-9c61-9c208d28e339" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/PITCHME.md" beforeDir="false" afterPath="$PROJECT_DIR$/PITCHME.md" afterDir="false" />
-    </list>
+    <list default="true" id="0b5d8bd5-c63b-4379-9c61-9c208d28e339" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +17,8 @@
             <entry file="file://$PROJECT_DIR$/PITCHME.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="109">
-                    <caret line="774" column="8" selection-start-line="774" selection-start-column="2" selection-end-line="774" selection-end-column="8" />
+                  <first_editor relative-caret-position="255">
+                    <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -191,8 +189,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="138" />
-    <option name="y" value="23" />
+    <option name="x" value="26" />
+    <option name="y" value="41" />
     <option name="width" value="1548" />
     <option name="height" value="985" />
   </component>
@@ -355,16 +353,15 @@
       <workItem from="1541700249238" duration="3955000" />
       <workItem from="1541736317926" duration="1615000" />
       <workItem from="1541776743508" duration="604000" />
-      <workItem from="1541824500585" duration="7059000" />
+      <workItem from="1541824500585" duration="7359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80373000" />
+    <option name="totallyTimeSpent" value="80673000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="138" y="23" width="1548" height="985" extended-state="0" />
-    <editor active="true" />
+    <frame x="26" y="41" width="1548" height="985" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -376,10 +373,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23873875" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23873875" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21713148" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21713148" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -789,8 +786,8 @@
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="109">
-            <caret line="774" column="8" selection-start-line="774" selection-start-column="2" selection-end-line="774" selection-end-column="8" />
+          <first_editor relative-caret-position="255">
+            <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           </first_editor>
           <second_editor />
         </state>
