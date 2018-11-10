@@ -632,6 +632,24 @@ val 子連れの母親(アブと風車が結ばれた藁): アブと風車が結
 ```
 
 ### そのため関数の引数は反変になります
+
+---?image=img/hahamatome.png&position=top&size=100%
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+```scala
+trait Function1[-T1, +R] extends AnyRef
+```
+
+### FunctionNは引数が反変になり、返り値は共変
+
 ---
 
 # APPENDIX

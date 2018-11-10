@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b5d8bd5-c63b-4379-9c61-9c208d28e339" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/PITCHME.md" beforeDir="false" afterPath="$PROJECT_DIR$/PITCHME.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/haha0.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/haha0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/haha2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/haha2.png" afterDir="false" />
-    </list>
+    <list default="true" id="0b5d8bd5-c63b-4379-9c61-9c208d28e339" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,15 +10,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.5901926">
+    <splitter split-orientation="vertical" split-proportion="0.7267951">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="PITCHME.md" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/PITCHME.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="154">
-                    <caret line="634" column="3" selection-start-line="634" selection-start-column="3" selection-end-line="634" selection-end-column="3" />
+                  <first_editor relative-caret-position="-228">
+                    <caret line="611" column="24" lean-forward="true" selection-start-line="611" selection-start-column="24" selection-end-line="611" selection-end-column="24" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -119,7 +115,7 @@
           <file leaf-file-name="Sample.scala" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Sample.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
+                <state relative-caret-position="36">
                   <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="21" />
                 </state>
               </provider>
@@ -356,11 +352,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72673000" />
+    <option name="totallyTimeSpent" value="72981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="132" y="23" width="1410" height="903" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -803,8 +798,8 @@
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="154">
-            <caret line="634" column="3" selection-start-line="634" selection-start-column="3" selection-end-line="634" selection-end-column="3" />
+          <first_editor relative-caret-position="-228">
+            <caret line="611" column="24" lean-forward="true" selection-start-line="611" selection-start-column="24" selection-end-line="611" selection-end-column="24" />
           </first_editor>
           <second_editor />
         </state>
