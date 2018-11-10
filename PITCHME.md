@@ -153,13 +153,18 @@ juiceGlass: Glass[Juice] = Glass@4fb799d3
 
 ---
 
+サブタイプについて
+
+---
+
 Scalaは型の親子関係により
 
 スーパークラスにサブクラスのインスタンスを適合できます。
 
+これをサブタイプの関係といいます。
+
 ---?image=img/w2d.png&position=top&size=60%
 
-<br>
 <br>
 <br>
 <br>
@@ -180,8 +185,6 @@ val drink:Drink = new Water
 val drink:Drink = new Juice
 ```
 ジュースもドリンクに適合します。
-#### (意訳)`Drink`型とみなすことができます。
-
 
 ---?image=img/gass_all.png&position=top&size=75%
 
@@ -189,7 +192,7 @@ val drink:Drink = new Juice
 <br>
 
 #### 一方で型パラメータ`Glass[T]`は、
-#### デフォルトの状態では、サブタイプの関係が使えません
+#### デフォルトの状態では、サブタイプの関係がありません。
 
 ---?image=img/w2d_ng.png&position=top&size=60%
 
@@ -223,42 +226,65 @@ glassWater: Glass[Water] = Glass@6874517b
 
 #### これを変異指定の非変`[T]`といいます。
 
-サブタイプの関係を
+非変[T]では、サブタイプの関係を
 
-型パラメータで使うことができません。
+型パラメータで定義したクラス、トレイトに使うことができません。
 
 同じ型であれば適合できます。
 
 ---
 
-そして変異指定はこのサブタイプの関係を型パラメータで指定する
+しかし、共変[+T]することで、
+サブタイプの関係を型パラメータで定義したクラス、トレイトに使うことができます。
+
+```scala
+class Glass[+T](content:T)
+```
+
+```scala
+scala> val glassDrink: Glass[Drink] = new Glass[Water](new Water)
+glassDrink: Glass[Drink] = Glass@59dfd52c
+```
+
+共変[+T]にするとサブタイプの関係が使えました。
 
 ---
-型パラメータでサブタイプの関係をそのまま使いたい場合には
 
-共変[+]を使います。
+逆に、サブタイプの関係を、型パラメータで定義したクラスで反転させて使いたいときは、
+
+反変[-T]を使います。
 
 
-**変異指定**と呼びます。
+```scala
+class Glass[-T](content:T)
+```
+
+```scala
+scala> val glassWater: Glass[Water] = new Glass[Drink](new Drink)
+glassWater: Glass[Water] = Glass@447abc13
+```
+
+Glass[Drink]型をGlass[Water]型に適応しています。
 
 ---
 
-#### 変位指定にはこの3つあります
+変異指定とはこのサブタイプの関係を、型パラメータのクラス(トレイト)で
+指定する制約です。
 
 * 非変[T]
 * 共変[+T]
 * 反変[-T]
 
+
 ---
 
-型パラメータでもサブタイプ関係をそのまま使える変異が共変[+T]になり、
-多くのimmutableなコレクションが共変で作られています。
+Scalaの多くのimmutableなコレクションは共変で定義されています。
 
 共変の話は後ほど
 
 ---
 
-一方Arrayは非変で作られています。
+一方非変定義されているコレクションにArrayがあります。
 
 ```scala
 final class Array[T] extends java.io.Serializable with java.lang.Cloneable
@@ -267,7 +293,7 @@ final class Array[T] extends java.io.Serializable with java.lang.Cloneable
 
 ---
 
-Arrayは可変なコレクションです。
+Arrayは可変なコレクション(配列)です。
 
 ```scala
 scala> val arr:Array[Int] = Array(1,2,3)
@@ -281,7 +307,7 @@ res14: Array[Int] = Array(4, 2, 3)
 
 ---
 
-#### なぜ`Array`は非変なのか？
+#### なぜ`Array`は非変なのでしょうか？
 
 ```scala
 scala> val water:Water = new Water
@@ -362,6 +388,13 @@ scala> val list:List[Int] = Nil
 
 scala> val list:List[String] = Nil
 ```
+
+---
+
+ListはArrayと異なり、immutableなので一度作ったインスタンスを変化させず
+新たにインスタンスを作ります。
+
+
 
 ---
 

@@ -5,6 +5,8 @@
 
 Array
 
+class Glass[-T](val content:T)
+
 
 class 子供のおもちゃ
 class アブが結ばれた藁 extends 子供のおもちゃ
