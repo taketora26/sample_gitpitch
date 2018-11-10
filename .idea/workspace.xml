@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b5d8bd5-c63b-4379-9c61-9c208d28e339" name="Default" comment="" />
+    <list default="true" id="0b5d8bd5-c63b-4379-9c61-9c208d28e339" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/PITCHME.md" beforeDir="false" afterPath="$PROJECT_DIR$/PITCHME.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +19,8 @@
             <entry file="file://$PROJECT_DIR$/PITCHME.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="217">
-                    <caret line="545" column="31" selection-start-line="545" selection-start-column="31" selection-end-line="545" selection-end-column="31" />
+                  <first_editor relative-caret-position="81">
+                    <caret line="558" column="30" selection-start-line="558" selection-start-column="30" selection-end-line="558" selection-end-column="30" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -115,8 +117,8 @@
           <file leaf-file-name="Sample.scala" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Sample.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="156">
-                  <caret line="23" column="11" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="11" />
+                <state relative-caret-position="146">
+                  <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-end-line="24" />
                 </state>
               </provider>
             </entry>
@@ -193,8 +195,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-35" />
-    <option name="y" value="105" />
+    <option name="x" value="132" />
+    <option name="y" value="23" />
     <option name="width" value="1410" />
     <option name="height" value="903" />
   </component>
@@ -247,15 +249,6 @@
               <item name="scala-library-2.12.4-sources.jar" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="collection" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample_gitpitch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="scala-sdk-2.12.4 (2)" type="70bed36:NamedLibraryElementNode" />
-              <item name="scala-library-2.12.4-sources.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="collection" type="462c0819:PsiDirectoryNode" />
-              <item name="mutable" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -370,10 +363,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70167000" />
+    <option name="totallyTimeSpent" value="71237000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-35" y="105" width="1410" height="903" extended-state="0" />
+    <frame x="132" y="23" width="1410" height="903" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -816,8 +810,8 @@
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="217">
-            <caret line="545" column="31" selection-start-line="545" selection-start-column="31" selection-end-line="545" selection-end-column="31" />
+          <first_editor relative-caret-position="81">
+            <caret line="558" column="30" selection-start-line="558" selection-start-column="30" selection-end-line="558" selection-end-column="30" />
           </first_editor>
           <second_editor />
         </state>
