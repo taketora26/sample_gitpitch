@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b5d8bd5-c63b-4379-9c61-9c208d28e339" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/PITCHME.md" beforeDir="false" afterPath="$PROJECT_DIR$/PITCHME.md" afterDir="false" />
-    </list>
+    <list default="true" id="0b5d8bd5-c63b-4379-9c61-9c208d28e339" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +17,8 @@
             <entry file="file://$PROJECT_DIR$/PITCHME.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="453">
-                    <caret line="524" column="10" selection-start-line="524" selection-start-column="10" selection-end-line="524" selection-end-column="10" />
+                  <first_editor relative-caret-position="78">
+                    <caret line="503" selection-start-line="503" selection-end-line="503" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -196,9 +194,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-35" />
-    <option name="y" value="175" />
-    <option name="width" value="1095" />
-    <option name="height" value="833" />
+    <option name="y" value="105" />
+    <option name="width" value="1410" />
+    <option name="height" value="903" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -372,11 +370,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68777000" />
+    <option name="totallyTimeSpent" value="69185000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-35" y="175" width="1095" height="833" extended-state="0" />
-    <editor active="true" />
+    <frame x="-35" y="105" width="1410" height="903" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -388,10 +385,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31929347" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.29156327" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16239317" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.125" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -819,8 +816,8 @@
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="453">
-            <caret line="524" column="10" selection-start-line="524" selection-start-column="10" selection-end-line="524" selection-end-column="10" />
+          <first_editor relative-caret-position="78">
+            <caret line="503" selection-start-line="503" selection-end-line="503" />
           </first_editor>
           <second_editor />
         </state>
