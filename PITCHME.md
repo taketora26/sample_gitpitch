@@ -652,6 +652,13 @@ trait Function1[-T1, +R] extends AnyRef
 
 ---
 
+### まとめ
+
+
+
+
+---
+
 # APPENDIX
 ---
 
