@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b5d8bd5-c63b-4379-9c61-9c208d28e339" name="Default" comment="" />
+    <list default="true" id="0b5d8bd5-c63b-4379-9c61-9c208d28e339" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/PITCHME.md" beforeDir="false" afterPath="$PROJECT_DIR$/PITCHME.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sample.scala" beforeDir="false" afterPath="$PROJECT_DIR$/Sample.scala" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,71 +13,89 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PITCHME.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PITCHME.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="91">
-                <caret line="154" column="28" selection-start-line="154" selection-start-column="28" selection-end-line="154" selection-end-column="28" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sample.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Sample.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="62" selection-start-line="62" selection-end-line="68" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Array.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/Array.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-              <folding>
-                <element signature="e#541#574#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PITCHME.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PITCHME.yaml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Function1.scala" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/Function1.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="31" selection-start-line="31" selection-end-line="31" selection-end-column="202" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" selection-start-line="2" selection-end-line="2" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.56491715">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="PITCHME.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/PITCHME.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="301">
+                    <caret line="379" lean-forward="true" selection-start-line="379" selection-end-line="379" />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Sample.scala" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Sample.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="125">
+                  <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Array.scala" pinned="false" current-in-tab="false">
+            <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/Array.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+                  <folding>
+                    <element signature="e#541#574#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PITCHME.yaml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/PITCHME.yaml">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="Function1.scala" pinned="false" current-in-tab="false">
+            <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/Function1.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="200">
+                  <caret line="31" selection-start-line="31" selection-end-line="31" selection-end-column="202" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="30">
+                    <caret line="2" selection-start-line="2" selection-end-line="2" />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="Sample.scala" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Sample.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="175">
+                  <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-end-line="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Scalaの型パラメータ</find>
+      <find>サブタイプ</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,10 +128,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="295" />
+    <option name="x" value="13" />
     <option name="y" value="23" />
-    <option name="width" value="1176" />
-    <option name="height" value="765" />
+    <option name="width" value="1285" />
+    <option name="height" value="985" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -245,10 +266,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56346000" />
+    <option name="totallyTimeSpent" value="58537000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="295" y="23" width="1176" height="765" extended-state="0" />
+    <frame x="13" y="23" width="1285" height="985" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -260,10 +282,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33832335" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.18468468" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15079366" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1375704" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -634,16 +656,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sample.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="62" selection-start-line="62" selection-end-line="68" selection-end-column="32" />
+        <state relative-caret-position="125">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="91">
-            <caret line="154" column="28" selection-start-line="154" selection-start-column="28" selection-end-line="154" selection-end-column="28" />
+          <first_editor relative-caret-position="301">
+            <caret line="379" lean-forward="true" selection-start-line="379" selection-end-line="379" />
           </first_editor>
           <second_editor />
         </state>

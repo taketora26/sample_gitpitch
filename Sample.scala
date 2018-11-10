@@ -19,9 +19,12 @@ var 大泣きに手を焼いている母親 : アブが結ばれた藁 => みか
 val 母親A : 子供のおもちゃ => みかん        // Function1[子供のおもちゃ, みかん]
 val 母親B : アブが結ばれた藁 => 温州みかん   // Function1[アブが結ばれた藁, 温州みかん]
 val 母親C : アブと風車が結ばれた藁 => みかん // Function1[アブと風車が結ばれた藁, みかん]
-val 母親D : アブが結ばれた藁 => 果物        // Function1[アブが結ばれた藁, 果物]
+val 母親 : アブが結ばれた藁 => 果物        // Function1[アブが結ばれた藁, 果物]
 
-trait Function1[-T1, +R]
+val f:Function1[Int,String] = (i:Int) =>  "Hello!" * i
+
+
+trait Function1[-T1, +R] extends AnyRef
 
 
 val pf: PartialFunction[アブが結ばれた藁, みかん] = {
