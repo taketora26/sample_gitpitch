@@ -793,6 +793,7 @@ trait Function1[-T1, +R] extends AnyRef
 * 反変の定義としてFunctionNがある
   * 引数は汎化でき、返り値は特化できる
 
+---
 
 #### 境界指定(上限境界、下限境界)
 
