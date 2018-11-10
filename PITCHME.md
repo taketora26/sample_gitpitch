@@ -129,6 +129,7 @@ class Glass[T](var content:T) {
 
 <br>
 <br>
+
 ```scala
 class Drink
 class Juice extends Drink
