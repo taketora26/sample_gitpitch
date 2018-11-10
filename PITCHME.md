@@ -317,9 +317,49 @@ val water:Water = arrayWater(0)
 
 ---
 
-共変の場合は型パラメータでもサブタイプが
+共変について
 
-List
+---
+
+
+みなさんが使っているimmutableなListは共変です
+
+
+```Scala
+sealed abstract class List[+A] extends AbstractSeq[A]
+```
+
+---
+
+共変ではサブタイプの関係をそのまま使えます。
+
+```scala
+scala> val list:List[Any] = List[Int](1,2,3)
+list: List[Any] = List(1, 2, 3)
+
+```
+
+List[Int]をList[Any]に適合できるます。
+#### (意訳すると)`List[Int]`を`List[Any]`と見なすことができます)
+
+
+---
+
+サブタイプの関係を使えるので、
+ボトムタイプのNothing型を全ての型に適応できます。
+
+
+|	Any	|		|
+|	:-:	|	:-:	|
+|	AnyVal	|	AnyRef	|
+|	"Unit
+Int
+Long
+Double
+Byteなど"	|	"通常のクラス
+Stringなど"	|
+|		|	Null	|
+|	Nothing	|		|
 
 ---
 
