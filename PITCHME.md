@@ -10,7 +10,7 @@ Scala関西Summit 2018
 
 池田 健虎
 
----?image=img/Sepori_log2.gif&position=left&size=60%
+---
 
 <img src="https://pbs.twimg.com/profile_images/813291577682509824/eut9iJB2_400x400.jpg" width="200">
 
