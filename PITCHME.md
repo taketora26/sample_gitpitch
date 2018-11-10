@@ -344,7 +344,9 @@ scala> val list:List[String] = Nil
 
 ---
 
-一方で、非変定義されているコレクションにArrayがあります。
+一方で、非変に定義されているコレクションとして
+
+Arrayがあります。
 
 ```scala
 final class Array[T] extends java.io.Serializable with java.lang.Cloneable
@@ -459,6 +461,7 @@ res3: String = Hello!Hello!
 
 ---?image=img/wara.png&position=top&size=100%
 
+<br>
 <br>
 
 わらしべ長者は、もともと貧乏だったのですが、
