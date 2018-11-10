@@ -457,10 +457,8 @@ res3: String = Hello!Hello!
 
 みなさん、わらしべ長者の話は知っていますか？
 
----?image=img/wara.png&position=top&size=40%
+---?image=img/wara.png&position=top
 
-<br>
-<br>
 <br>
 
 わらしべ長者は、もともと貧乏だったのですが、
