@@ -17,6 +17,7 @@ Scala関西Summit 2018
 * [@taket0ra1](https://twitter.com/taket0ra1)
 * セプテーニ・オリジナル
 * 社内外でScalaを教えています
+* 中途採用担当
 
 ---
 
