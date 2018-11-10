@@ -351,8 +351,10 @@ List[Int]をList[Any]に適合できます。
 ボトムタイプのNothing型を全ての型に適応できます。
 
 ```scala
-scala> val list:List[Nothing] = Nil
+case object Nil extends List[Nothing]
+```
 
+```scala
 scala> val list:List[Int] = Nil
 
 scala> val list:List[String] = Nil
