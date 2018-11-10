@@ -348,8 +348,9 @@ List[Int]をList[Any]に適合できるます。
 サブタイプの関係を使えるので、
 ボトムタイプのNothing型を全ての型に適応できます。
 
-keisyo.png
 
+
+<img src="https://github.com/taketora26/sample_gitpitch/blob/kansai/img/kaisou.png?raw=true">
 ---
 
 反変について、なかなかメリットがわからないと思いますが、
