@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b5d8bd5-c63b-4379-9c61-9c208d28e339" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/PITCHME.md" beforeDir="false" afterPath="$PROJECT_DIR$/PITCHME.md" afterDir="false" />
-    </list>
+    <list default="true" id="0b5d8bd5-c63b-4379-9c61-9c208d28e339" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +17,8 @@
             <entry file="file://$PROJECT_DIR$/PITCHME.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="313">
-                    <caret line="471" lean-forward="true" selection-start-line="471" selection-end-line="471" />
+                  <first_editor relative-caret-position="389">
+                    <caret line="456" lean-forward="true" selection-start-line="456" selection-end-line="456" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -371,7 +369,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66595000" />
+    <option name="totallyTimeSpent" value="66845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="19" y="23" width="1474" height="985" extended-state="0" />
@@ -818,8 +816,8 @@
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="313">
-            <caret line="471" lean-forward="true" selection-start-line="471" selection-end-line="471" />
+          <first_editor relative-caret-position="389">
+            <caret line="456" lean-forward="true" selection-start-line="456" selection-end-line="456" />
           </first_editor>
           <second_editor />
         </state>
