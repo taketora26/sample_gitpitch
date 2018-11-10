@@ -12,15 +12,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.48085758">
+    <splitter split-orientation="vertical" split-proportion="0.7457887">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="PITCHME.md" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/PITCHME.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="133">
-                    <caret line="316" lean-forward="true" selection-start-line="316" selection-end-line="316" />
+                  <first_editor relative-caret-position="313">
+                    <caret line="471" lean-forward="true" selection-start-line="471" selection-end-line="471" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -194,7 +194,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="11" />
+    <option name="x" value="19" />
     <option name="y" value="23" />
     <option name="width" value="1474" />
     <option name="height" value="985" />
@@ -371,10 +371,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66083000" />
+    <option name="totallyTimeSpent" value="66595000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="23" width="1474" height="985" extended-state="0" />
+    <frame x="19" y="23" width="1474" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -818,8 +818,8 @@
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="133">
-            <caret line="316" lean-forward="true" selection-start-line="316" selection-end-line="316" />
+          <first_editor relative-caret-position="313">
+            <caret line="471" lean-forward="true" selection-start-line="471" selection-end-line="471" />
           </first_editor>
           <second_editor />
         </state>

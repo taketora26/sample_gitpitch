@@ -342,8 +342,6 @@ scala> val list:List[Int] = Nil
 scala> val list:List[String] = Nil
 ```
 
-共変であるため、空のコレクションを作ることが簡単にできます。
-
 ---
 
 一方で、非変定義されているコレクションにArrayがあります。
@@ -351,20 +349,6 @@ scala> val list:List[String] = Nil
 ```scala
 final class Array[T] extends java.io.Serializable with java.lang.Cloneable
 
-```
-
----
-
-Arrayは可変なコレクション(配列)です。
-
-```scala
-scala> val arr:Array[Int] = Array(1,2,3)
-arr: Array[Int] = Array(1, 2, 3)
-
-scala> arr(0) = 4
-
-scala> arr
-res14: Array[Int] = Array(4, 2, 3)
 ```
 
 ---
@@ -380,6 +364,20 @@ scala> val arrayDrink:Array[Drink] = arrayWater
 <console>:16: error: type mismatch;
 
 ```
+---
+
+Arrayは可変なコレクション(配列)です。
+
+```scala
+scala> val arr:Array[Int] = Array(1,2,3)
+arr: Array[Int] = Array(1, 2, 3)
+
+scala> arr(0) = 4
+
+scala> arr
+res14: Array[Int] = Array(4, 2, 3)
+```
+
 ---?image=img/arrW.png
 
 ---
@@ -398,20 +396,22 @@ val water:Water = arrayWater(0)
 ```
 
 * Arrayはmutableなコレクション
-* サブタイプが使えると、要素が変更される
+* サブタイプの関係がある場合、要素が変更される可能性が出てくる
 * 型安全が壊れてしまう
 * 間違った型の要素を取り出す
 
 ---
 
-これらの問題が出てくるので、Arrayは非変で作られています。
+これらの問題が出てくるので
 
-ミュータブルなリストであるListBufferも同様に非変です。
+Arrayは非変で作られています。
+
+またミュータブルなリストであるListBufferも同様に非変です。
 
 ```scala
 final class ListBuffer[A]
-
 ```
+
 
 ---
 
@@ -420,9 +420,11 @@ final class ListBuffer[A]
 ---
 
 なかなかメリットがわからないと思いますが、
-実はみなさんがすでに使っているものの中に反変があります。
 
-それがFunctionNです
+実はみなさんがすでに使っているもので反変の定義があります。
+
+---
+FunctionNです
 
 ---
 
@@ -441,11 +443,11 @@ scala> f(2)
 res3: String = Hello!Hello!
 
 ```
-* Intを引数にとり、Stringを返す関数です。
+上記はIntを引数にとり、Stringを返す関数です。
 
 ---
 
-抽象的にいうと `Function1`は、何か引数を渡して、何かを返す関数です。
+ `Function1`は、何か引数を渡すと、何かを返す関数です。
 
 ---
 
@@ -460,18 +462,19 @@ res3: String = Hello!Hello!
 ---
 
 * アブを結んだ藁をみかんへ
-* みかんを半物へ
-* 半物を馬へ
+* みかんを反物へ
+* 反物を馬へ
 * 馬を屋敷へ
 
 ---
 
-何かを渡して、何かを得る。
+### 何かを渡して、何かを得る。
+
 これ関数と同じ構造ですよね。
 
 ---
 
-最初のシーンを関数を使うと次のようになります。
+最初のシーンを関数で表します。
 
 ```scala
 var 大泣きの男の子に手を焼いている母親 : アブが結ばれた藁 => みかん
