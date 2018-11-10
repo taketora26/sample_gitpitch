@@ -352,13 +352,10 @@ List[Int]をList[Any]に適合できます。
 
 ```scala
 scala> val list:List[Nothing] = Nil
-list: List[Nothing] = List()
 
 scala> val list:List[Int] = Nil
-list: List[Int] = List()
 
 scala> val list:List[String] = Nil
-list: List[String] = List()
 ```
 
 ---
