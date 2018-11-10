@@ -17,8 +17,8 @@
             <entry file="file://$PROJECT_DIR$/PITCHME.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="134">
-                    <caret line="352" column="92" selection-start-line="352" selection-start-column="92" selection-end-line="352" selection-end-column="92" />
+                  <first_editor relative-caret-position="209">
+                    <caret line="357" column="24" lean-forward="true" selection-start-line="357" selection-start-column="24" selection-end-line="357" selection-end-column="24" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -95,6 +95,7 @@
       <find>サブタイプ</find>
       <find>/blob/kansai</find>
       <find>github.com/taketora26</find>
+      <find>意訳</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -129,7 +130,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="11" />
     <option name="y" value="23" />
-    <option name="width" value="1427" />
+    <option name="width" value="1585" />
     <option name="height" value="985" />
   </component>
   <component name="ProjectView">
@@ -265,10 +266,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60556000" />
+    <option name="totallyTimeSpent" value="60838000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="23" width="1427" height="985" extended-state="0" />
+    <frame x="11" y="23" width="1585" height="985" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -283,7 +284,7 @@
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.18468468" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1234657" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11082307" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -662,8 +663,8 @@
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="134">
-            <caret line="352" column="92" selection-start-line="352" selection-start-column="92" selection-end-line="352" selection-end-column="92" />
+          <first_editor relative-caret-position="209">
+            <caret line="357" column="24" lean-forward="true" selection-start-line="357" selection-start-column="24" selection-end-line="357" selection-end-column="24" />
           </first_editor>
           <second_editor />
         </state>
