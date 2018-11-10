@@ -74,7 +74,7 @@ arrayDrink(0) = juice
 val water2:Water = arrayWater(0)
 
 
-List
+1 :: List(1,2)
 Try
 
 ()

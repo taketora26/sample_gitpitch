@@ -344,6 +344,78 @@ scala> val list:List[String] = Nil
 
 ---
 
+#### また共変には下限境界を定義することがあります。
+
+```scala
+sealed abstract class List[+A] extends AbstractSeq[A]
+
+//省略
+  def ::[B >: A] (x: B): List[B] =　new scala.collection.immutable.::(x, this)
+
+```
+
+BはAのスーパー型を意味で、
+
+これはListがインスタンス化した要素を返すか、汎化した要素のListを返すことを表しています。
+
+---
+
+```scala
+scala> val list = List(2,3,4)
+list: List[Int] = List(2, 3, 4)
+
+scala> val listInt = 1 :: list
+listInt: List[Int] = List(1, 2, 3, 4)
+```
+
+同じ要素(Int)の場合は、同じ要素のリスト型が作られる
+
+---
+
+Double型を要素に追加する場合は
+
+IntとDoubleのスーパークラスであるAnyVal型のListが作られています。
+
+```scala
+scala> val listAnyVal = 0.5 :: listInt
+listAnyVal: List[AnyVal] = List(0.5, 1, 2, 3, 4)
+
+```
+
+String型を要素に追加する場合は
+
+IntとStringのスーパークラスであるAny型のListが作られます。
+
+```scala
+scala> val listAny = "hello" :: listInt
+listAny: List[Any] = List(hello, 1, 2, 3, 4)
+
+```
+
+---
+```scala
+sealed abstract class List[+A] extends AbstractSeq[A]
+
+//省略
+  def ::[B >: A] (x: B): List[B] =　new scala.collection.immutable.::(x, this)
+
+```
+
+通常、引数の位置に共変型パラメータが入ると、型が壊れる可能性があり、
+このまま型パラメーターAのみを引数に持って行くと、コンパイラに怒られますが
+
+下限境界を設定することによって、Listは要素が異なる場合は、追加する要素と共通するスーパークラスが入ることがわかります。
+
+この下限境界によってコンパイラがAの任意のスーパータイプの値が入ることを理解できるため、下限境界が使われます。
+
+
+---
+ただ、どうして引数に共変型パラメータがくると型安全が壊れるのでしょうか？
+
+次のArrayを通して説明します。
+
+---
+
 一方で非変に定義されているコレクションとして
 
 Arrayがあります。
