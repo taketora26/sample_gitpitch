@@ -17,8 +17,8 @@
             <entry file="file://$PROJECT_DIR$/PITCHME.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="166">
-                    <caret line="350" lean-forward="true" selection-start-line="350" selection-end-line="357" />
+                  <first_editor relative-caret-position="134">
+                    <caret line="352" column="92" selection-start-line="352" selection-start-column="92" selection-end-line="352" selection-end-column="92" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -93,6 +93,8 @@
     <findStrings>
       <find>Scalaの型パラメータ</find>
       <find>サブタイプ</find>
+      <find>/blob/kansai</find>
+      <find>github.com/taketora26</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -263,11 +265,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60238000" />
+    <option name="totallyTimeSpent" value="60556000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="233" y="23" width="1427" height="985" extended-state="0" />
-    <editor active="true" />
+    <frame x="11" y="23" width="1427" height="985" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -661,8 +662,8 @@
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="166">
-            <caret line="350" lean-forward="true" selection-start-line="350" selection-end-line="357" />
+          <first_editor relative-caret-position="134">
+            <caret line="352" column="92" selection-start-line="352" selection-start-column="92" selection-end-line="352" selection-end-column="92" />
           </first_editor>
           <second_editor />
         </state>

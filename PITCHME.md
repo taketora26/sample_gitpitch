@@ -166,7 +166,7 @@ val drink:Drink = new Water
 ```
 水はドリンクに適合します。
 
-#### (意訳すると)`Drink`型とみなすことができます。
+#### (意訳)`Drink`型とみなすことができます。
 
 ---?image=img/j2d.png&position=top&size=55%
 
@@ -177,7 +177,7 @@ val drink:Drink = new Water
 val drink:Drink = new Juice
 ```
 ジュースもドリンクに適合します。
-#### (意訳すると)`Drink`型とみなすことができます。
+#### (意訳)`Drink`型とみなすことができます。
 
 
 ---?image=img/gass_all.png&position=top&size=75%
@@ -339,8 +339,8 @@ list: List[Any] = List(1, 2, 3)
 
 ```
 
-List[Int]をList[Any]に適合できるます。
-#### (意訳すると)`List[Int]`を`List[Any]`と見なすことができます)
+List[Int]をList[Any]に適合できます。
+#### (意訳)`List[Int]`を`List[Any]`と見なすことができます)
 
 
 ---
@@ -348,9 +348,19 @@ List[Int]をList[Any]に適合できるます。
 サブタイプの関係を使えるので、
 ボトムタイプのNothing型を全ての型に適応できます。
 
+<img src="https://github.com/taketora26/sample_gitpitch/blob/kansai/img/kaisou.png?raw=true"  width="150">
 
+```scala
+scala> val list:List[Nothing] = Nil
+list: List[Nothing] = List()
 
-<img src="https://github.com/taketora26/sample_gitpitch/blob/kansai/img/kaisou.png?raw=true">
+scala> val list:List[Int] = Nil
+list: List[Int] = List()
+
+scala> val list:List[String] = Nil
+list: List[String] = List()
+```
+
 ---
 
 反変について、なかなかメリットがわからないと思いますが、
