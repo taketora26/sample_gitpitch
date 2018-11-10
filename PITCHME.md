@@ -282,7 +282,17 @@ Glass[Drink]型をGlass[Water]型に適応しています。
 
 ---
 
-Scalaの多くのimmutableなコレクションは共変で定義されています。
+Scalaの多くのimmutableなコレクションは
+
+共変で定義されています。
+
+```scala
+
+sealed abstract class List[+A] extends AbstractSeq[A]
+
+
+
+```
 
 共変の話は後ほど
 
