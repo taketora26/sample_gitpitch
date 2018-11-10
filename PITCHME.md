@@ -315,7 +315,7 @@ final case class Success[+T](value: T) extends Try[T]
 
 共変にすることによって
 
-共変ではサブタイプの関係をそのまま使えます。
+サブタイプの関係をそのまま使えます。
 
 ```scala
 scala> val list:List[Any] = List[Int](1,2,3)
@@ -324,7 +324,6 @@ list: List[Any] = List(1, 2, 3)
 ```
 
 List[Int]をList[Any]に適合できます。
-#### (意訳)`List[Int]`を`List[Any]`と見なすことができます)
 
 ---
 

@@ -19,8 +19,8 @@
             <entry file="file://$PROJECT_DIR$/PITCHME.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="144">
-                    <caret line="456" selection-start-line="456" selection-end-line="456" selection-end-column="6" />
+                  <first_editor relative-caret-position="133">
+                    <caret line="316" lean-forward="true" selection-start-line="316" selection-end-line="316" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -371,7 +371,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65803000" />
+    <option name="totallyTimeSpent" value="66083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="11" y="23" width="1474" height="985" extended-state="0" />
@@ -387,10 +387,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26463965" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26463965" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.119413406" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119413406" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -818,8 +818,8 @@
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
-            <caret line="456" selection-start-line="456" selection-end-line="456" selection-end-column="6" />
+          <first_editor relative-caret-position="133">
+            <caret line="316" lean-forward="true" selection-start-line="316" selection-end-line="316" />
           </first_editor>
           <second_editor />
         </state>
