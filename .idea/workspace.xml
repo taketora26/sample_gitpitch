@@ -20,8 +20,8 @@
             <entry file="file://$PROJECT_DIR$/PITCHME.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="192">
-                    <caret line="295" lean-forward="true" selection-start-line="295" selection-end-line="295" />
+                  <first_editor relative-caret-position="162">
+                    <caret line="314" lean-forward="true" selection-start-line="314" selection-end-line="314" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -31,8 +31,17 @@
           <file leaf-file-name="package.scala" pinned="false" current-in-tab="false">
             <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/package.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="158">
-                  <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+                <state relative-caret-position="88">
+                  <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Seq.scala" pinned="false" current-in-tab="false">
+            <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/collection/Seq.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="88">
+                  <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -49,7 +58,7 @@
           <file leaf-file-name="SeqFactory.scala" pinned="false" current-in-tab="false">
             <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/collection/generic/SeqFactory.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
+                <state relative-caret-position="88">
                   <caret line="19" column="81" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
                 </state>
               </provider>
@@ -109,8 +118,8 @@
           <file leaf-file-name="Sample.scala" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Sample.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="247">
-                  <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+                <state relative-caret-position="204">
+                  <caret line="77" column="2" selection-start-line="77" selection-start-column="2" selection-end-line="77" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -118,8 +127,8 @@
           <file leaf-file-name="Try.scala" pinned="false" current-in-tab="true">
             <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/util/Try.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="104">
-                  <caret line="239" column="26" lean-forward="true" selection-start-line="239" selection-end-line="240" />
+                <state relative-caret-position="2306">
+                  <caret line="211" column="1" lean-forward="true" selection-start-line="211" selection-start-column="1" selection-end-line="211" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -179,7 +188,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="11" />
     <option name="y" value="23" />
-    <option name="width" value="1585" />
+    <option name="width" value="1474" />
     <option name="height" value="985" />
   </component>
   <component name="ProjectView">
@@ -201,6 +210,36 @@
               <item name="sample_gitpitch" type="b2602c69:ProjectViewProjectNode" />
               <item name="sample_gitpitch" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample_gitpitch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="sample_gitpitch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="scala-sdk-2.12.4 (2)" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="sample_gitpitch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="scala-sdk-2.12.4 (2)" type="70bed36:NamedLibraryElementNode" />
+              <item name="scala-library-2.12.4-sources.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample_gitpitch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="scala-sdk-2.12.4 (2)" type="70bed36:NamedLibraryElementNode" />
+              <item name="scala-library-2.12.4-sources.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sample_gitpitch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="scala-sdk-2.12.4 (2)" type="70bed36:NamedLibraryElementNode" />
+              <item name="scala-library-2.12.4-sources.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="collection" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -315,10 +354,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63832000" />
+    <option name="totallyTimeSpent" value="64588000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="11" y="23" width="1585" height="985" extended-state="0" />
+    <frame x="11" y="23" width="1474" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -334,7 +373,7 @@
       <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26463965" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11082307" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119413406" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -703,16 +742,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/package.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/Option.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="56" column="41" lean-forward="true" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+        <state relative-caret-position="202">
+          <caret line="350" lean-forward="true" selection-start-line="350" selection-end-line="350" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/collection/generic/SeqFactory.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="88">
           <caret line="19" column="81" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
         </state>
       </provider>
@@ -724,10 +763,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/Option.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/collection/Seq.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="350" lean-forward="true" selection-start-line="350" selection-end-line="350" />
+        <state relative-caret-position="88">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="56" column="6" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -740,16 +786,16 @@
     </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.4-sources.jar!/scala/util/Try.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="239" column="26" lean-forward="true" selection-start-line="239" selection-end-line="240" />
+        <state relative-caret-position="2306">
+          <caret line="211" column="1" lean-forward="true" selection-start-line="211" selection-start-column="1" selection-end-line="211" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PITCHME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="192">
-            <caret line="295" lean-forward="true" selection-start-line="295" selection-end-line="295" />
+          <first_editor relative-caret-position="162">
+            <caret line="314" lean-forward="true" selection-start-line="314" selection-end-line="314" />
           </first_editor>
           <second_editor />
         </state>

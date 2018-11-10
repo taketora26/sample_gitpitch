@@ -235,12 +235,16 @@ glassWater: Glass[Water] = Glass@6874517b
 ---
 
 でも型パラメータで定義したクラスにも
+
 サブタイプの関係を利用したいです。
 
 ---
 
-その場合、共変[+T]することで、
-サブタイプの関係を型パラメータで定義したクラスに使うことができます。
+その場合共変[+T]することで、
+
+サブタイプの関係を型パラメータで
+
+定義したクラスに使うことができます。
 
 ```scala
 class Glass[+T](content:T)
@@ -255,7 +259,9 @@ Glass[Water]型をGlass[Drink]型に適応できました。
 
 ---
 
-逆にサブタイプの関係を型パラメータで定義したクラスで反転させて使いたいときは、
+逆にサブタイプの関係を型パラメータで
+
+定義したクラスで反転させたい場合は
 
 反変[-T]を使います。
 
@@ -273,8 +279,9 @@ Glass[Drink]型をGlass[Water]型に適応しています。
 
 ---
 
-つまり変異指定とはこのサブタイプの関係を、型パラメータのクラス(トレイト)で
-指定する制約です。
+つまり変異指定とはこのサブタイプの関係を、
+
+型パラメータのクラスで指定する制約です。
 
 * 非変[T]
 * 共変[+T]
@@ -282,9 +289,17 @@ Glass[Drink]型をGlass[Water]型に適応しています。
 
 ---
 
+といっても、これだけだとまだ抽象的ですね。
+
+もう少し深掘りましょう。
+
+---
+
 Scalaの多くのimmutableなコレクションは
 
 共変で定義されています。
+
+(List、Seq、Tuple、Option、Either、Try)
 
 ```scala
 sealed abstract class List[+A] extends AbstractSeq[A]
@@ -292,10 +307,13 @@ sealed abstract class List[+A] extends AbstractSeq[A]
 sealed abstract class Option[+A] extends Product with Serializable 
 
 final case class Success[+T](value: T) extends Try[T] 
-
 ```
 
-共変の話は後ほど
+---
+
+みなさんがよく使っているであろうListは共変です
+
+共変にすることによって
 
 ---
 
