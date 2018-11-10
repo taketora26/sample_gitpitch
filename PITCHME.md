@@ -127,6 +127,8 @@ class Glass[T](var content:T) {
 
 ---?image=img/Drink1.png&position=top&size=70%
 
+<br>
+<br>
 ```scala
 class Drink
 class Juice extends Drink
