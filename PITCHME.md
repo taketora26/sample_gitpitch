@@ -411,9 +411,20 @@ listAny: List[Any] = List(hello, 1, 2, 3, 4)
 型安全が壊れる可能性があり、
 このまま型パラメーターAのみを引数に持って行くと、コンパイラに怒られます。
 
+```scala
+
+scala> class Glass[+A](val value: A) {
+     | 
+     |   def put(v: A): Glass[A] = new Glass(v)
+     | 
+     | }
+<console>:13: error: covariant type A occurs in contravariant position in type A of value v
+         def put(v: A): Glass[A] = new Glass(v)
+                 ^
+```
+
+
 しかしimmutableなクラスであれば型安全が保てます。
-
-
 こちらは後ほどお話します。
 
 ---

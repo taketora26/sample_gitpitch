@@ -86,4 +86,20 @@ Option
 
 
 Success
-Failure
+
+
+class MyBox[+A](val value: A) {
+
+  def put(v: A): MyBox[A] = new MyBox(v)
+
+}
+
+class Glass[+A](val value: A) {
+
+  def put(v: A): Glass[A] = new Glass(v)
+
+}
+
+class Glass2[+T](val content:T) {
+  def put(v:T): Glass[T]= ???
+}
